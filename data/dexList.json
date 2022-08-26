@@ -1,0 +1,16 @@
+[
+    {
+        "id": 1,
+        "name": "Normal Dex",
+        "order": 1,
+        "subListOf": null,
+        "spriteDir": "/sprites/home/normal"
+    },
+    {
+        "id": 2,
+        "name": "Shiny Dex",
+        "order": 2,
+        "subListOf": null,
+        "spriteDir": "/sprites/home/normal"
+    }
+]
