@@ -1,0 +1,32 @@
+[
+    {
+        "number": 1,
+        "identifier": "bulbasaur",
+        "name": "Bulbasaur",
+        "lists": [1, 2]
+    },
+    {
+        "number": 4,
+        "identifier": "charmander",
+        "name": "Charmander",
+        "lists": [1, 2]
+    },
+    {
+        "number": 7,
+        "identifier": "squirtle",
+        "name": "Squirtle",
+        "lists": [1, 2]
+    },
+    {
+        "number": 25,
+        "identifier": "pikachu",
+        "name": "Pikachu",
+        "lists": [1, 2]
+    },
+    {
+        "number": 25,
+        "identifier": "pikachu-f",
+        "name": "Pikachu",
+        "lists": [1, 2]
+    }
+]
