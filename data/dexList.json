@@ -1,12 +1,6 @@
 [
     {"id": 1, "name": "National", "order": 1, "subListOf": null, "spriteDir": "https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@main/sprites/home/normal/" },
     {"id": 2, "name": "Shiny National", "order": 2, "subListOf": null, "spriteDir": "https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@main/sprites/home/shiny/" },
-    {"id": 3, "name": "Alolan", "order": 1, "subListOf": "Regional", "spriteDir": "https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@main/sprites/home/normal/" },
-    {"id": 5, "name": "Galarian", "order": 2, "subListOf": "Regional", "spriteDir": "https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@main/sprites/home/normal/" },
-    {"id": 7, "name": "Hisuian", "order": 3, "subListOf": "Regional", "spriteDir": "https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@main/sprites/legends-arceus/normal/" },
-    {"id": 4, "name": "Shiny Alolan", "order": 1, "subListOf": "Shiny Regional", "spriteDir": "https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@main/sprites/home/shiny/" },
-    {"id": 6, "name": "Shiny Galarian", "order": 2, "subListOf": "Shiny Regional", "spriteDir": "https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@main/sprites/home/shiny/" },
-    {"id": 8, "name": "Shiny Hisuian", "order": 3, "subListOf": "Shiny Regional", "spriteDir": "https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@main/sprites/legends-arceus/shiny/" },
-    {"id": 9, "name": "Alpha", "order": 1, "subListOf": "Alpha", "spriteDir": "https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@main/sprites/legends-arceus/normal/" },
-    {"id": 10, "name": "Shiny Alpha", "order": 2, "subListOf": "Alpha", "spriteDir": "https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@main/sprites/legends-arceus/shiny/" }
+    {"id": 3, "name": "Alpha", "order": 1, "subListOf": "Alpha", "spriteDir": "https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@main/sprites/home/normal/" },
+    {"id": 4, "name": "Shiny Alpha", "order": 2, "subListOf": "Alpha", "spriteDir": "https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@main/sprites/home/shiny/" }
 ]
