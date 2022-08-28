@@ -1,16 +1,12 @@
 [
-    {
-        "id": 1,
-        "name": "Normal Dex",
-        "order": 1,
-        "subListOf": null,
-        "spriteDir": "https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@main/sprites/home/normal/"
-    },
-    {
-        "id": 2,
-        "name": "Shiny Dex",
-        "order": 2,
-        "subListOf": null,
-        "spriteDir": "https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@main/sprites/home/shiny/"
-    }
+{"id": 1, "name": "National", "order": 1, "subListOf": null, "spriteDir": "https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@main/sprites/home/normal/" },
+{"id": 2, "name": "Shiny National", "order": 2, "subListOf": null, "spriteDir": "https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@main/sprites/home/shiny/" },
+{"id": 3, "name": "Alolan", "order": 1, "subListOf": "Regional", "spriteDir": null },
+{"id": 4, "name": "Galarian", "order": 2, "subListOf": "Regional", "spriteDir": null },
+{"id": 5, "name": "Hisuian", "order": 3, "subListOf": "Regional", "spriteDir": null },
+{"id": 6, "name": "Alolan", "order": 1, "subListOf": "Shiny Regional", "spriteDir": null },
+{"id": 7, "name": "Galarian", "order": 2, "subListOf": "Shiny Regional", "spriteDir": null },
+{"id": 8, "name": "Hisuian", "order": 3, "subListOf": "Shiny Regional", "spriteDir": null },
+{"id": 9, "name": "Alpha", "order": 1, "subListOf": "Alpha", "spriteDir": null },
+{"id": 10, "name": "Shiny Alpha", "order": 2, "subListOf": "Alpha", "spriteDir": null }
 ]
