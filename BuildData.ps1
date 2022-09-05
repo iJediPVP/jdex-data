@@ -233,7 +233,7 @@ foreach($SelectedDiv in $Divs)
             elseif($Form.EndsWith("star")) 
             { 
                 $Alias += "-star" 
-                $PokeName += " (Start)"
+                $PokeName += " (Star)"
             }
             elseif($Form.EndsWith("clover")) 
             { 
@@ -279,16 +279,42 @@ foreach($SelectedDiv in $Divs)
         [void]$PokeResults.Add($Result)
     }
 
+    # Split monsters into boxes
+    $Boxes = New-Object System.Collections.ArrayList
+    $Page = 1
+    $PageSize = 30
+    do 
+    {
+        $Skip = ($Page - 1) * $PageSize
+        $PokesForBox = $PokeResults | Select-Object -Skip $Skip -First $PageSize
+
+        if($PokesForBox.Count -eq 0) 
+        {
+            break
+        }
+        [void]$Boxes.Add(
+            [PSCustomObject]@{
+                Num = $Page
+                Monsters = $PokesForBox
+            }
+        )
+
+        $Page += 1
+    } while($true)
+
+
     $TextInfo = [System.Globalization.CultureInfo]::new("en-US", $false).TextInfo
     $Dex = [PSCustomObject]@{
         Id = $SelectedDiv.id
         Name = $TextInfo.ToTitleCase($SelectedDiv.id)
-        Count = ($PokeResults | ? { $_.Num -gt 0 }).Count
-        Monsters = $PokeResults
+        Count = ($PokeResults | ? { $_.Num -gt 0 }).Count    
+        Boxes = $Boxes.ToArray()
     }
 
+
+
     $OutFileJSON = [System.IO.Path]::Combine($OutputDir, $SelectedDiv.id + ".json")
-    ConvertTo-Json $Dex -Compress | Out-File $OutFileJSON -Encoding utf8 -Force 
+    ConvertTo-Json $Dex -Compress -Depth 10 | Out-File $OutFileJSON -Encoding utf8 -Force 
     
     if($Test) 
     {
