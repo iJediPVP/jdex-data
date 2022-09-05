@@ -279,8 +279,16 @@ foreach($SelectedDiv in $Divs)
         [void]$PokeResults.Add($Result)
     }
 
+    $TextInfo = [System.Globalization.CultureInfo]::new("en-US", $false).TextInfo
+    $Dex = [PSCustomObject]@{
+        Id = $SelectedDiv.id
+        Name = $TextInfo.ToTitleCase($SelectedDiv.id)
+        Count = ($PokeResults | ? { $_.Num -gt 0 }).Count
+        Monsters = $PokeResults
+    }
+
     $OutFileJSON = [System.IO.Path]::Combine($OutputDir, $SelectedDiv.id + ".json")
-    ConvertTo-Json $PokeResults -Compress | Out-File $OutFileJSON -Encoding utf8 -Force 
+    ConvertTo-Json $Dex -Compress | Out-File $OutFileJSON -Encoding utf8 -Force 
     
     if($Test) 
     {
