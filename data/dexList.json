@@ -1,6 +1,0 @@
-[
-    {"id": 1, "name": "National", "order": 1, "subListOf": null, "spriteDir": "https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@main/sprites/home/normal/" },
-    {"id": 2, "name": "Shiny National", "order": 2, "subListOf": null, "spriteDir": "https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@main/sprites/home/shiny/" },
-    {"id": 3, "name": "Alpha", "order": 1, "subListOf": "Alpha", "spriteDir": "https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@main/sprites/home/normal/" },
-    {"id": 4, "name": "Shiny Alpha", "order": 2, "subListOf": "Alpha", "spriteDir": "https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@main/sprites/home/shiny/" }
-]
