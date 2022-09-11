@@ -2,8 +2,7 @@
 jdex-data
 
 # Credits:
-- Coming soon
+- Serebii - Pokémon Home list - https://www.serebii.net
+- Pokémon Database - Sprites - https://pokemondb.net/
 
 # TODO:
-- Upload the Home version of Hisuian sprites
-- 

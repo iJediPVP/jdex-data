@@ -1,4 +1,5 @@
-﻿$SourceURL = "https://www.serebii.net/pokemonhome/depositablepokemon.shtml"
+﻿$SerebiiBase = "https://www.serebii.net"
+$SourceURL = "$SerebiiBase/pokemonhome/depositablepokemon.shtml"
 $CurrentDir = (pwd).Path
 $OutputDir = [System.IO.Path]::Combine($CurrentDir, "data")
 [void][System.IO.Directory]::CreateDirectory($OutputDir)
@@ -194,6 +195,7 @@ foreach($SelectedDiv in $Divs)
     $PokeTDs = $SelectedDiv.getElementsByTagName("td") | ? { $_.ClassName -eq "pkmn" }
     foreach($Poke in $PokeTDs) 
     {
+        $Link = $Poke.getElementsByTagName("a")[0]
         $Img = $Poke.getElementsByTagName("img")[0]
         $PokeName = $Img.title.Replace("Forme", "Form")
         $PokeName = Get-Name $PokeName
@@ -274,6 +276,7 @@ foreach($SelectedDiv in $Divs)
             Num = $PokeNum
             Name = $PokeName
             Alias = $Alias
+            SerebiiLink = "$SerebiiBase/" + $Link.pathname
             #Form = $Form
         }
         [void]$PokeResults.Add($Result)
