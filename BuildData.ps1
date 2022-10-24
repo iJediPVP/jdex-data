@@ -190,6 +190,7 @@ function Get-Name($Name)
 
 foreach($SelectedDiv in $Divs) 
 {
+    $DexId = $SelectedDiv.id
     $PokeResults = New-Object System.Collections.ArrayList
 
     $PokeTDs = $SelectedDiv.getElementsByTagName("td") | ? { $_.ClassName -eq "pkmn" }
@@ -222,6 +223,12 @@ foreach($SelectedDiv in $Divs)
 
         if($Alias.StartsWith("alcremi")) 
         {
+            # Shiny Alcremie are all the same aside from the modifier. So we only need 7 shiny forms
+            if($DexId -eq "shiny" -and $Alias.Contains("vanilla-cream") -eq $false) 
+            {
+                continue
+            }
+
             if($Form.EndsWith("berry")) 
             { 
                 $Alias += "-berry" 
@@ -308,26 +315,26 @@ foreach($SelectedDiv in $Divs)
 
     $TextInfo = [System.Globalization.CultureInfo]::new("en-US", $false).TextInfo
     $Dex = [PSCustomObject]@{
-        Id = $SelectedDiv.id
-        Name = $TextInfo.ToTitleCase($SelectedDiv.id)
+        Id = $DexId
+        Name = $TextInfo.ToTitleCase($DexId)
         Count = ($PokeResults | ? { $_.Num -gt 0 }).Count    
         Boxes = $Boxes.ToArray()
     }
 
 
 
-    $OutFileJSON = [System.IO.Path]::Combine($OutputDir, $SelectedDiv.id + ".json")
+    $OutFileJSON = [System.IO.Path]::Combine($OutputDir, $DexId + ".json")
     ConvertTo-Json $Dex -Compress -Depth 10 | Out-File $OutFileJSON -Encoding utf8 -Force 
     
     if($Test) 
     {
-        $OutFileCSV = [System.IO.Path]::Combine($OutputDir, $SelectedDiv.id + ".csv")
+        $OutFileCSV = [System.IO.Path]::Combine($OutputDir, $DexId + ".csv")
         $PokeResults | Export-Csv $OutFileCSV -Encoding utf8 -NoTypeInformation -Force
 
-        $OutFileHTML = [System.IO.Path]::Combine($OutputDir, $SelectedDiv.id + ".html")
-        $HTML = Get-TestHTML $PokeResults $SelectedDiv.id
+        $OutFileHTML = [System.IO.Path]::Combine($OutputDir, $DexId + ".html")
+        $HTML = Get-TestHTML $PokeResults $DexId
         $HTML | Out-File $OutFileHTML
     }
 
-    Write-Host ($SelectedDiv.id + " - " + $PokeResults.Count + " pokes")
+    Write-Host ($DexId + " - " + $PokeResults.Count + " pokes")
 }
