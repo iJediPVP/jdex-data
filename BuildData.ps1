@@ -10,8 +10,8 @@ $Divs = $Response.ParsedHtml.body.getElementsByTagName("div") | ? { $_.Id -eq"no
 
 
 $Banned = @(
-    "Zygarde Power Construct",
-    "Rockruff Own Tempo"
+    #"Zygarde Power Construct",
+    #"Rockruff Own Tempo"
 )
 
 # Test HTML to easily view errors
@@ -193,6 +193,8 @@ foreach($SelectedDiv in $Divs)
     $DexId = $SelectedDiv.id
     $PokeResults = New-Object System.Collections.ArrayList
 
+    $FirstPowerZygarde = $true
+
     $PokeTDs = $SelectedDiv.getElementsByTagName("td") | ? { $_.ClassName -eq "pkmn" }
     foreach($Poke in $PokeTDs) 
     {
@@ -270,6 +272,13 @@ foreach($SelectedDiv in $Divs)
         {
             $PokeName = "Hisuian " + $PokeName
             $Alias = Get-Alias $PokeName
+        }
+
+        if($PokeName -eq "Zygarde Power Construct" -and $FirstPowerZygarde -eq $true) 
+        {
+            $PokeName = "Zygarde 10% Power Construct"
+            $Alias = "zygarde-10-power-construct"
+            $FirstPowerZygarde = $false
         }
 
         # Temp code to help with alias cleanup
