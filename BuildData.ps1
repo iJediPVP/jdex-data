@@ -188,17 +188,45 @@ function Get-Name($Name)
     return $Res
 }
 
-function Set-Boxes($Pokes, $Boxes) {
+function Get-Poke($PokeNum, $PokeName, $Alias, $SerebiiLink) 
+{
+    $Result = [PSCustomObject]@{
+        Num = [int]$PokeNum
+        Name = $PokeName
+        Alias = $Alias
+        SerebiiLink = $SerebiiLink
+    }
+
+    return $Result
+}
+
+function Set-Boxes($Pokes, $Boxes) 
+{
     $Page = 1
     $PageSize = 30
     do 
     {
         $Skip = ($Page - 1) * $PageSize
-        $PokesForBox = $Pokes | Select-Object -Skip $Skip -First $PageSize
-
-        if($PokesForBox.Count -eq 0) 
+        $SelectedPokes = $Pokes | Select-Object -Skip $Skip -First $PageSize
+        if($SelectedPokes.Count -eq 0) 
         {
             break
+        }
+
+        $PokesForBox = New-Object System.Collections.ArrayList
+        foreach($Poke in $SelectedPokes) 
+        {
+            [void]$PokesForBox.Add($Poke)
+        }
+
+        if($PokesForBox.Count -lt $PageSize) 
+        {
+            $ToAdd = $PageSize - $PokesForBox.Count
+            for($i = 0; $i -lt $ToAdd; $i++) 
+            {
+                $Poke = Get-Poke -1 "" "" ""
+                [void]$PokesForBox.Add($Poke)
+            }
         }
         [void]$Boxes.Add(
             [PSCustomObject]@{
@@ -209,6 +237,8 @@ function Set-Boxes($Pokes, $Boxes) {
 
         $Page += 1
     } while($true)
+
+    
 }
 
 foreach($SelectedDiv in $Divs) 
@@ -311,13 +341,7 @@ foreach($SelectedDiv in $Divs)
             $Form = ""
         }
 
-        $Result = [PSCustomObject]@{
-            Num = $PokeNum
-            Name = $PokeName
-            Alias = $Alias
-            SerebiiLink = "$SerebiiBase/" + $Link.pathname
-            #Form = $Form
-        }
+        $Result = Get-Poke $PokeNum $PokeName $Alias $Link.pathname
         [void]$PokeResults.Add($Result)
     }
 
