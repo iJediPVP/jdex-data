@@ -188,6 +188,29 @@ function Get-Name($Name)
     return $Res
 }
 
+function Set-Boxes($Pokes, $Boxes) {
+    $Page = 1
+    $PageSize = 30
+    do 
+    {
+        $Skip = ($Page - 1) * $PageSize
+        $PokesForBox = $Pokes | Select-Object -Skip $Skip -First $PageSize
+
+        if($PokesForBox.Count -eq 0) 
+        {
+            break
+        }
+        [void]$Boxes.Add(
+            [PSCustomObject]@{
+                Num = $Boxes.Count + 1
+                Monsters = $PokesForBox
+            }
+        )
+
+        $Page += 1
+    } while($true)
+}
+
 foreach($SelectedDiv in $Divs) 
 {
     $DexId = $SelectedDiv.id
@@ -298,39 +321,37 @@ foreach($SelectedDiv in $Divs)
         [void]$PokeResults.Add($Result)
     }
 
-    # Split monsters into boxes
+    $TotalPokeCount = ($PokeResults | ? { $_.Num -gt 0 }).Count 
+
+    
+
+    # Pull out non regional variants. 
+    $Regions = @("Alolan", "Galarian", "Hisuian")
+    $RegionalPokes = $PokeResults | ? { $Regions.Contains($_.Name.Split(" ")[0]) }
+    foreach($Poke in $RegionalPokes) {
+        $Index = $PokeResults.IndexOf($Poke)
+        $PokeResults.RemoveAt($Index)
+    }
+
+    # Sort non-regional forms
     $Boxes = New-Object System.Collections.ArrayList
-    $Page = 1
-    $PageSize = 30
-    do 
-    {
-        $Skip = ($Page - 1) * $PageSize
-        $PokesForBox = $PokeResults | Select-Object -Skip $Skip -First $PageSize
+    Set-Boxes $PokeResults $Boxes 
 
-        if($PokesForBox.Count -eq 0) 
-        {
-            break
-        }
-        [void]$Boxes.Add(
-            [PSCustomObject]@{
-                Num = $Page
-                Monsters = $PokesForBox
-            }
-        )
-
-        $Page += 1
-    } while($true)
+    # Sort regional forms
+    foreach($Region in $Regions) {
+        $Pokes = $RegionalPokes | ? { $_.Name.Split(" ")[0] -eq $Region }
+        Set-Boxes $Pokes $Boxes
+    }
 
 
+    # Write output files
     $TextInfo = [System.Globalization.CultureInfo]::new("en-US", $false).TextInfo
     $Dex = [PSCustomObject]@{
         Id = $DexId
         Name = $TextInfo.ToTitleCase($DexId)
-        Count = ($PokeResults | ? { $_.Num -gt 0 }).Count    
+        Count = $TotalPokeCount   
         Boxes = $Boxes.ToArray()
     }
-
-
 
     $OutFileJSON = [System.IO.Path]::Combine($OutputDir, $DexId + ".json")
     ConvertTo-Json $Dex -Compress -Depth 10 | Out-File $OutFileJSON -Encoding utf8 -Force 
@@ -345,5 +366,5 @@ foreach($SelectedDiv in $Divs)
         $HTML | Out-File $OutFileHTML
     }
 
-    Write-Host ($DexId + " - " + $PokeResults.Count + " pokes")
+    Write-Host ($DexId + " - " + $TotalPokeCount + " pokes")
 }
