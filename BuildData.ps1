@@ -4,7 +4,6 @@ $CurrentDir = (pwd).Path
 $OutputDir = [System.IO.Path]::Combine($CurrentDir, "data")
 [void][System.IO.Directory]::CreateDirectory($OutputDir)
 $Test = $true
-$IncludeScuffedGen9 = $true
 
 $Response = Invoke-WebRequest $SourceURL
 $Divs = $Response.ParsedHtml.body.getElementsByTagName("div") | ? { $_.Id -eq"normal" -or $_.Id -eq "shiny" }
@@ -242,26 +241,6 @@ function Set-Boxes($Pokes, $Boxes)
     
 }
 
-function Get-Gen9() 
-{
-    $Gen9File = [System.IO.Path]::Combine($CurrentDir, "data", "gen9.txt")
-    $Content = Get-Content $Gen9File -Encoding UTF8
-    $Gen9Pokes = New-Object System.Collections.ArrayList
-    foreach($C in $Content) {
-        if($C.Length -gt 0) {
-            $SplitLine = $C.Split("|")
-            #$PokeNum = [int]::Parse($SplitLine[0])
-            $PokeNum = -1 # We have these, but I don't want the dex to allow entries for these
-            $Alias = $SplitLine[1]
-            $PokeName = $SplitLine[2]
-            $SerebiiLink = "" # We don't have these yet
-            $Poke = Get-Poke $PokeNum $PokeName $Alias $SerebiiLink
-            [void]$Gen9Pokes.Add($Poke)
-        }
-    }
-    return $Gen9Pokes
-}
-
 foreach($SelectedDiv in $Divs) 
 {
     $DexId = $SelectedDiv.id
@@ -366,19 +345,12 @@ foreach($SelectedDiv in $Divs)
         [void]$PokeResults.Add($Result)
     }
 
-    if($IncludeScuffedGen9) {
-        $Gen9 = Get-Gen9
-        foreach($P in $Gen9) {
-            [void]$PokeResults.Add($P)
-        }
-    }
-
     $TotalPokeCount = ($PokeResults | ? { $_.Num -gt 0 }).Count 
 
     
 
     # Pull out non regional variants. 
-    $Regions = @("Alolan", "Galarian", "Hisuian", "Paldean")
+    $Regions = @("Alolan", "Galarian", "Hisuian")
     $RegionalPokes = $PokeResults | ? { $Regions.Contains($_.Name.Split(" ")[0]) }
     foreach($Poke in $RegionalPokes) {
         $Index = $PokeResults.IndexOf($Poke)
