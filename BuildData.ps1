@@ -245,7 +245,14 @@ function Load-Gen9($Dex, $PokeResults)
 {
     $Pokes = Import-Csv -Encoding UTF8 -Path "$OutputDir/gen9/$Dex.csv"
     foreach($Poke in $Pokes) {
-        $Result = Get-Poke $Poke.Num $Poke.Name $Poke.Alias $Poke.SerebiiLink
+        #$Result = Get-Poke $Poke.Num $Poke.Name $Poke.Alias $Poke.SerebiiLink
+        
+        # Make all gen 9 unavailable for now.. It will be a few months before HOME is updated.
+        $PokeName = $Poke.Name
+        if($PokeName.Contains("(Not Available)") -eq $false) {
+            $PokeName = "$PokeName (Not Available)"
+        }
+        $Result = Get-Poke -1 $PokeName $Poke.Alias $Poke.SerebiiLink
         [void]$PokeResults.Add($Result)
 
         # Sprites
