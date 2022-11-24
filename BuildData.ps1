@@ -241,6 +241,25 @@ function Set-Boxes($Pokes, $Boxes)
     
 }
 
+function Load-Gen9($Dex, $PokeResults) 
+{
+    $Pokes = Import-Csv -Encoding UTF8 -Path "$OutputDir/gen9/$Dex.csv"
+    foreach($Poke in $Pokes) {
+        $Result = Get-Poke $Poke.Num $Poke.Name $Poke.Alias $Poke.SerebiiLink
+        [void]$PokeResults.Add($Result)
+
+        # Sprites
+        $SpriteDir = [System.IO.Path]::Combine($CurrentDir, "sprites", "home", $DexId)
+        $SpriteName = "$SpriteDir/" + $Poke.Alias + ".png"
+        if((Test-Path $SpriteName) -eq $false) {
+            Write-Host ("Downloading: " + $Poke.SpritePath)
+            Invoke-WebRequest $Poke.SpritePath -OutFile $SpriteName -ErrorAction Stop
+            Start-Sleep -Seconds 1 # Don't want to spam serebii
+        }
+
+    }
+}
+
 foreach($SelectedDiv in $Divs) 
 {
     $DexId = $SelectedDiv.id
@@ -345,12 +364,20 @@ foreach($SelectedDiv in $Divs)
         [void]$PokeResults.Add($Result)
     }
 
+    # Temp Gen 9 data
+    Load-Gen9 $DexId $PokeResults
+
     $TotalPokeCount = ($PokeResults | ? { $_.Num -gt 0 }).Count 
 
-    
+    # Pull out Pikachu Caps
+    $CapPikachus = $PokeResults | ? { $_.Alias.StartsWith("pikachu-") -and $_.Alias.EndsWith("-cap") }
+    foreach($Poke in $CapPikachus) {
+        $Index = $PokeResults.IndexOf($Poke)
+        $PokeResults.RemoveAt($Index)
+    }
 
     # Pull out non regional variants. 
-    $Regions = @("Alolan", "Galarian", "Hisuian")
+    $Regions = @("Alolan", "Galarian", "Hisuian", "Paldean")
     $RegionalPokes = $PokeResults | ? { $Regions.Contains($_.Name.Split(" ")[0]) }
     foreach($Poke in $RegionalPokes) {
         $Index = $PokeResults.IndexOf($Poke)
@@ -360,6 +387,9 @@ foreach($SelectedDiv in $Divs)
     # Sort non-regional forms
     $Boxes = New-Object System.Collections.ArrayList
     Set-Boxes $PokeResults $Boxes 
+
+    # Sort Pikachu Caps
+    Set-Boxes $CapPikachus $Boxes
 
     # Sort regional forms
     foreach($Region in $Regions) {

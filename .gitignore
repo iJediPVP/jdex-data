@@ -1,2 +1,2 @@
-﻿*.html
-*.csv
+﻿/data/*.html
+/data/*.csv
