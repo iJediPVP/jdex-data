@@ -1,3 +1,5 @@
-﻿/data/*.html
-/data/*.csv
-*copy.json
+﻿*.html
+/cachedresponse/*
+/livingdex/data/*csv
+/livingdex/data/*html
+/livingdex/data/*copy.json
