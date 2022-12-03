@@ -36,3 +36,8 @@ function Get-SerebiiResponse($Resource) {
     return $Response
 }
 
+function Get-Game8Response($Resource) {
+    $Response = Get-Response "https://game8.co/games" $Resource "game8"
+    return $Response
+}
+
