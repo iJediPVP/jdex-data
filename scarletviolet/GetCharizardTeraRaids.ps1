@@ -1,31 +1,29 @@
 . ".\utility\WebUtil.ps1"
 . ".\utility\PokeUtil.ps1"
-<#
-for($S = 1; $S -lt 7; $S++) {
-    
-}#>
 
-$S = 1
-
-$Resource = "scarletviolet/teraraidbattles/$S" + "star.shtml"
+$Resource = "scarletviolet/teraraidbattles/event-unrivaledcharizard.shtml"
 $Response = Get-SerebiiResponse $Resource
 $Table = $Response.body.getElementsByTagName("table")[0]
 $Rows = $Table.firstChild.childNodes
 
-$Stars = $S
+#$Stars = -1 # These are set per poke
 $Header = $Rows[0].firstChild.innerText.Split("`r`n")
 $Category = $Header[0]
 $Descriptions = $Header | Select-Object -Skip 1
 
-for($R = 1; $R -lt $Rows.Length; $R += 7) {
+
+for($R = 1; $R -lt $Rows.Length; $R += 10) {
 
     $Sprites = $Rows[$R].childNodes
     $Names = $Rows[$R + 1].childNodes
-    # Skipping game
-    $Levels = $Rows[$R + 3].childNodes
-    $TeraTypes = $Rows[$R + 4].childNodes
-    $Abilities = $Rows[$R + 5].childNodes
-    $Moves = $Rows[$R + 6].childNodes
+    $Levels = $Rows[$R + 2].childNodes
+    $Stars = $Rows[$R + 3].childNodes
+    # Skipping shiny rate
+    # Skipping mark
+    # Skipping catchable
+    $TeraTypes = $Rows[$R + 7].childNodes
+    $Abilities = $Rows[$R + 8].childNodes
+    $Moves = $Rows[$R + 9].childNodes
 
     for($C = 0; $C -lt $Sprites.Length; $C++) {
 
@@ -41,12 +39,13 @@ for($R = 1; $R -lt $Rows.Length; $R += 7) {
 
         $Name = $Names[$C].innerText.Trim()
         $Level = $Levels[$C].lastChild.textContent.Replace("Lv.", "").Trim()
+        $StarCount = $Stars[$C].childNodes[2].textContent.Split("&").Length - 1
         $TeraType = $TeraTypes[$C].innerText.Replace("Tera Type", "").Trim()
         $Ability = $Abilities[$C].childNodes[2].textContent
 
         $PokeMoves = $Moves[$C].getElementsByTagName("a") | Select-Object -ExpandProperty innerText 
 
         # TODO: Lookup abilities and ability descriptions 
-        #TODO: Lookup descriptions
+        # TODO: Lookup descriptions
     }
 }
