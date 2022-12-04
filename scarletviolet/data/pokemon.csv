@@ -1,0 +1,668 @@
+Num,Id,Display,Alias,Type1,Type2,Ability1,Ability2,HiddenAbility,HP,Attack,Defense,SpAttack,SpDefense,Speed,DoNotShow,Sprite
+4,Charmander,Charmander,charmander,Fire,,Blaze,,Solar Power,39,52,43,60,50,65,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/charmander.png
+5,Charmeleon,Charmeleon,charmeleon,Fire,,Blaze,,Solar Power,58,64,58,80,65,80,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/charmeleon.png
+6,Charizard,Charizard,charizard,Fire,Flying,Blaze,,Solar Power,78,84,78,109,85,100,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/charizard.png
+25,Pikachu,Pikachu,pikachu,Electric,,Static,,Lightning Rod,35,55,40,50,50,90,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/pikachu.png
+1019,Pikachu-1,Pikachu-1,,Electric,,Static,,Lightning Rod,35,55,40,50,50,90,1,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/.png
+1020,Pikachu-2,Pikachu-2,,Electric,,Static,,Lightning Rod,35,55,40,50,50,90,1,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/.png
+1021,Pikachu-3,Pikachu-3,,Electric,,Static,,Lightning Rod,35,55,40,50,50,90,1,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/.png
+1022,Pikachu-4,Pikachu-4,,Electric,,Static,,Lightning Rod,35,55,40,50,50,90,1,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/.png
+1023,Pikachu-5,Pikachu-5,,Electric,,Static,,Lightning Rod,35,55,40,50,50,90,1,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/.png
+1024,Pikachu-6,Pikachu-6,,Electric,,Static,,Lightning Rod,35,55,40,50,50,90,1,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/.png
+1025,Pikachu-7,Pikachu-7,,Electric,,Static,,Lightning Rod,35,55,40,50,50,90,1,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/.png
+1027,Pikachu-9,Pikachu-9,,Electric,,Static,,Lightning Rod,35,55,40,50,50,90,1,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/.png
+26,Raichu,Raichu,raichu,Electric,,Static,,Lightning Rod,60,90,55,90,80,110,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/raichu.png
+1028,Raichu-1,Alolan Raichu,raichu-alolan,Electric,Psychic,Surge Surfer,,,60,85,50,95,85,110,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/raichu-alolan.png
+39,Jigglypuff,Jigglypuff,jigglypuff,Normal,Fairy,Cute Charm,Competitive,Friend Guard,115,45,20,45,25,20,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/jigglypuff.png
+40,Wigglytuff,Wigglytuff,wigglytuff,Normal,Fairy,Cute Charm,Competitive,Frisk,140,70,45,85,50,45,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/wigglytuff.png
+48,Venonat,Venonat,venonat,Bug,Poison,Compound Eyes,Tinted Lens,Run Away,60,55,50,40,55,45,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/venonat.png
+49,Venomoth,Venomoth,venomoth,Bug,Poison,Shield Dust,Tinted Lens,Wonder Skin,70,65,60,90,75,90,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/venomoth.png
+50,Diglett,Diglett,diglett,Ground,,Sand Veil,Arena Trap,Sand Force,10,55,25,35,45,95,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/diglett.png
+1033,Diglett-1,Alolan Diglett,diglett-alolan,Ground,Steel,Sand Veil,Tangling Hair,Sand Force,10,55,30,35,45,90,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/diglett-alolan.png
+51,Dugtrio,Dugtrio,dugtrio,Ground,,Sand Veil,Arena Trap,Sand Force,35,100,50,50,70,120,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/dugtrio.png
+1034,Dugtrio-1,Alolan Dugtrio,dugtrio-alolan,Ground,Steel,Sand Veil,Tangling Hair,Sand Force,35,100,60,50,70,110,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/dugtrio-alolan.png
+52,Meowth,Meowth,meowth,Normal,,Pickup,Technician,Unnerve,40,45,35,40,40,90,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/meowth.png
+1035,Meowth-1,Alolan Meowth,meowth-alolan,Dark,,Pickup,Technician,Rattled,40,35,35,50,40,90,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/meowth-alolan.png
+1036,Meowth-2,Galarian Meowth,meowth-galarian,Steel,,Pickup,Tough Claws,Unnerve,50,65,55,40,40,40,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/meowth-galarian.png
+53,Persian,Persian,persian,Normal,,Limber,Technician,Unnerve,65,70,60,65,65,115,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/persian.png
+1037,Persian-1,Alolan Persian,persian-alolan,Dark,,Fur Coat,Technician,Rattled,65,60,60,75,65,115,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/persian-alolan.png
+54,Psyduck,Psyduck,psyduck,Water,,Damp,Cloud Nine,Swift Swim,50,52,48,65,50,55,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/psyduck.png
+55,Golduck,Golduck,golduck,Water,,Damp,Cloud Nine,Swift Swim,80,82,78,95,80,85,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/golduck.png
+56,Mankey,Mankey,mankey,Fighting,,Vital Spirit,Anger Point,Defiant,40,80,35,35,45,70,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/mankey.png
+57,Primeape,Primeape,primeape,Fighting,,Vital Spirit,Anger Point,Defiant,65,105,60,60,70,95,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/primeape.png
+58,Growlithe,Growlithe,growlithe,Fire,,Intimidate,Flash Fire,Justified,55,70,45,70,50,60,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/growlithe.png
+1038,Growlithe-1,Hisuian Growlithe,growlithe-hisuian,Fire,Rock,Intimidate,Flash Fire,Rock Head,60,75,45,65,50,55,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/growlithe-hisuian.png
+59,Arcanine,Arcanine,arcanine,Fire,,Intimidate,Flash Fire,Justified,90,110,80,100,80,95,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/arcanine.png
+1039,Arcanine-1,Hisuian Arcanine,arcanine-hisuian,Fire,Rock,Intimidate,Flash Fire,Rock Head,95,115,80,95,80,90,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/arcanine-hisuian.png
+79,Slowpoke,Slowpoke,slowpoke,Water,Psychic,Oblivious,Own Tempo,Regenerator,90,65,65,40,40,15,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/slowpoke.png
+1046,Slowpoke-1,Galarian Slowpoke,slowpoke-galarian,Psychic,,Gluttony,Own Tempo,Regenerator,90,65,65,40,40,15,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/slowpoke-galarian.png
+80,Slowbro,Slowbro,slowbro,Water,Psychic,Oblivious,Own Tempo,Regenerator,95,75,110,100,80,30,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/slowbro.png
+1048,Slowbro-2,Galarian Slowbro,slowbro-galarian,Poison,Psychic,Quick Draw,Own Tempo,Regenerator,95,100,95,100,70,30,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/slowbro-galarian.png
+81,Magnemite,Magnemite,magnemite,Electric,Steel,Magnet Pull,Sturdy,Analytic,25,35,70,95,55,45,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/magnemite.png
+82,Magneton,Magneton,magneton,Electric,Steel,Magnet Pull,Sturdy,Analytic,50,60,95,120,70,70,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/magneton.png
+88,Grimer,Grimer,grimer,Poison,,Stench,Sticky Hold,Poison Touch,80,80,50,40,50,25,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/grimer.png
+1050,Grimer-1,Alolan Grimer,grimer-alolan,Poison,Dark,Poison Touch,Gluttony,Power of Alchemy,80,80,50,40,50,25,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/grimer-alolan.png
+89,Muk,Muk,muk,Poison,,Stench,Sticky Hold,Poison Touch,105,105,75,65,100,50,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/muk.png
+1051,Muk-1,Alolan Muk,muk-alolan,Poison,Dark,Poison Touch,Gluttony,Power of Alchemy,105,105,75,65,100,50,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/muk-alolan.png
+90,Shellder,Shellder,shellder,Water,,Shell Armor,Skill Link,Overcoat,30,65,100,45,25,40,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/shellder.png
+91,Cloyster,Cloyster,cloyster,Water,Ice,Shell Armor,Skill Link,Overcoat,50,95,180,85,45,70,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/cloyster.png
+92,Gastly,Gastly,gastly,Ghost,Poison,Levitate,,,30,35,30,100,35,80,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/gastly.png
+93,Haunter,Haunter,haunter,Ghost,Poison,Levitate,,,45,50,45,115,55,95,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/haunter.png
+94,Gengar,Gengar,gengar,Ghost,Poison,Cursed Body,,,60,65,60,130,75,110,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/gengar.png
+96,Drowzee,Drowzee,drowzee,Psychic,,Insomnia,Forewarn,Inner Focus,60,48,45,43,90,42,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/drowzee.png
+97,Hypno,Hypno,hypno,Psychic,,Insomnia,Forewarn,Inner Focus,85,73,70,73,115,67,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/hypno.png
+100,Voltorb,Voltorb,voltorb,Electric,,Soundproof,Static,Aftermath,40,30,50,55,55,100,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/voltorb.png
+1053,Voltorb-1,Hisuian Voltorb,voltorb-hisuian,Electric,Grass,Soundproof,Static,Aftermath,40,30,50,55,55,100,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/voltorb-hisuian.png
+101,Electrode,Electrode,electrode,Electric,,Soundproof,Static,Aftermath,60,50,70,80,80,150,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/electrode.png
+1054,Electrode-1,Hisuian Electrode,electrode-hisuian,Electric,Grass,Soundproof,Static,Aftermath,60,50,70,80,80,150,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/electrode-hisuian.png
+113,Chansey,Chansey,chansey,Normal,,Natural Cure,Serene Grace,Healer,250,5,5,35,105,50,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/chansey.png
+123,Scyther,Scyther,scyther,Bug,Flying,Swarm,Technician,Steadfast,70,110,80,55,80,105,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/scyther.png
+128,Tauros,Tauros,tauros,Normal,,Intimidate,Anger Point,Sheer Force,75,100,95,40,70,110,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/tauros.png
+1061,Tauros-1,Paldean Tauros,tauros-paldean,Fighting,,Intimidate,Anger Point,Cud Chew,75,110,105,30,70,100,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/tauros-paldean.png
+1062,Tauros-2,Paldean Tauros (Blaze),tauros-blaze-paldean,Fighting,Fire,Intimidate,Anger Point,Cud Chew,75,110,105,30,70,100,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/tauros-blaze-paldean.png
+1063,Tauros-3,Paldean Tauros (Aqua),tauros-aqua-paldean,Fighting,Water,Intimidate,Anger Point,Cud Chew,75,110,105,30,70,100,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/tauros-aqua-paldean.png
+129,Magikarp,Magikarp,magikarp,Water,,Swift Swim,,Rattled,20,10,55,15,20,80,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/magikarp.png
+130,Gyarados,Gyarados,gyarados,Water,Flying,Intimidate,,Moxie,95,125,79,60,100,81,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/gyarados.png
+132,Ditto,Ditto,ditto,Normal,,Limber,,Imposter,48,48,48,48,48,48,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/ditto.png
+133,Eevee,Eevee,eevee,Normal,,Run Away,Adaptability,Anticipation,55,55,50,45,65,55,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/eevee.png
+134,Vaporeon,Vaporeon,vaporeon,Water,,Water Absorb,,Hydration,130,65,60,110,95,65,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/vaporeon.png
+135,Jolteon,Jolteon,jolteon,Electric,,Volt Absorb,,Quick Feet,65,65,60,110,95,130,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/jolteon.png
+136,Flareon,Flareon,flareon,Fire,,Flash Fire,,Guts,65,130,60,95,110,65,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/flareon.png
+144,Articuno,Articuno,articuno,Ice,Flying,Pressure,,Snow Cloak,90,85,100,95,125,85,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/articuno.png
+1067,Articuno-1,Galarian Articuno,articuno-galarian,Psychic,Flying,Competitive,,,90,85,85,125,100,95,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/articuno-galarian.png
+145,Zapdos,Zapdos,zapdos,Electric,Flying,Pressure,,Static,90,90,85,125,90,100,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/zapdos.png
+1068,Zapdos-1,Galarian Zapdos,zapdos-galarian,Fighting,Flying,Defiant,,,90,125,90,85,90,100,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/zapdos-galarian.png
+146,Moltres,Moltres,moltres,Fire,Flying,Pressure,,Flame Body,90,100,90,125,85,90,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/moltres.png
+1069,Moltres-1,Galarian Moltres,moltres-galarian,Dark,Flying,Berserk,,,90,85,90,100,125,90,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/moltres-galarian.png
+147,Dratini,Dratini,dratini,Dragon,,Shed Skin,,Marvel Scale,41,64,45,50,50,50,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/dratini.png
+148,Dragonair,Dragonair,dragonair,Dragon,,Shed Skin,,Marvel Scale,61,84,65,70,70,70,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/dragonair.png
+149,Dragonite,Dragonite,dragonite,Dragon,Flying,Inner Focus,,Multiscale,91,134,95,100,100,80,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/dragonite.png
+150,Mewtwo,Mewtwo,mewtwo,Psychic,,Pressure,,Unnerve,106,110,90,154,90,130,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/mewtwo.png
+151,Mew,Mew,mew,Psychic,,Synchronize,,,100,100,100,100,100,100,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/mew.png
+155,Cyndaquil,Cyndaquil,cyndaquil,Fire,,Blaze,,Flash Fire,39,52,43,60,50,65,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/cyndaquil.png
+156,Quilava,Quilava,quilava,Fire,,Blaze,,Flash Fire,58,64,58,80,65,80,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/quilava.png
+157,Typhlosion,Typhlosion,typhlosion,Fire,,Blaze,,Flash Fire,78,84,78,109,85,100,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/typhlosion.png
+1072,Typhlosion-1,Hisuian Typhlosion,typhlosion-hisuian,Fire,Ghost,Blaze,,Frisk,73,84,78,119,85,95,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/typhlosion-hisuian.png
+172,Pichu,Pichu,pichu,Electric,,Static,,Lightning Rod,20,40,15,35,35,60,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/pichu.png
+174,Igglybuff,Igglybuff,igglybuff,Normal,Fairy,Cute Charm,Competitive,Friend Guard,90,30,15,40,20,15,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/igglybuff.png
+179,Mareep,Mareep,mareep,Electric,,Static,,Plus,55,40,40,65,45,35,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/mareep.png
+180,Flaaffy,Flaaffy,flaaffy,Electric,,Static,,Plus,70,55,55,80,60,45,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/flaaffy.png
+181,Ampharos,Ampharos,ampharos,Electric,,Static,,Plus,90,75,85,115,90,55,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/ampharos.png
+183,Marill,Marill,marill,Water,Fairy,Thick Fat,Huge Power,Sap Sipper,70,20,50,20,50,40,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/marill.png
+184,Azumarill,Azumarill,azumarill,Water,Fairy,Thick Fat,Huge Power,Sap Sipper,100,50,80,60,80,50,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/azumarill.png
+185,Sudowoodo,Sudowoodo,sudowoodo,Rock,,Sturdy,Rock Head,Rattled,70,100,115,30,65,30,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/sudowoodo.png
+187,Hoppip,Hoppip,hoppip,Grass,Flying,Chlorophyll,Leaf Guard,Infiltrator,35,35,40,35,55,50,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/hoppip.png
+188,Skiploom,Skiploom,skiploom,Grass,Flying,Chlorophyll,Leaf Guard,Infiltrator,55,45,50,45,65,80,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/skiploom.png
+189,Jumpluff,Jumpluff,jumpluff,Grass,Flying,Chlorophyll,Leaf Guard,Infiltrator,75,55,70,55,95,110,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/jumpluff.png
+191,Sunkern,Sunkern,sunkern,Grass,,Chlorophyll,Solar Power,Early Bird,30,30,30,30,30,30,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/sunkern.png
+192,Sunflora,Sunflora,sunflora,Grass,,Chlorophyll,Solar Power,Early Bird,75,75,55,105,85,30,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/sunflora.png
+194,Wooper,Wooper,wooper,Water,Ground,Damp,Water Absorb,Unaware,55,45,45,25,25,15,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/wooper.png
+1074,Wooper-1,Paldean Wooper,wooper-paldean,Poison,Ground,Poison Point,Water Absorb,Unaware,55,45,45,25,25,15,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/wooper-paldean.png
+195,Quagsire,Quagsire,quagsire,Water,Ground,Damp,Water Absorb,Unaware,95,85,85,65,65,35,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/quagsire.png
+196,Espeon,Espeon,espeon,Psychic,,Synchronize,,Magic Bounce,65,65,60,130,95,110,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/espeon.png
+197,Umbreon,Umbreon,umbreon,Dark,,Synchronize,,Inner Focus,95,65,110,60,130,65,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/umbreon.png
+198,Murkrow,Murkrow,murkrow,Dark,Flying,Insomnia,Super Luck,Prankster,60,85,42,85,42,91,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/murkrow.png
+199,Slowking,Slowking,slowking,Water,Psychic,Oblivious,Own Tempo,Regenerator,95,75,80,100,110,30,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/slowking.png
+1075,Slowking-1,Galarian Slowking,slowking-galarian,Poison,Psychic,Curious Medicine,Own Tempo,Regenerator,95,65,80,110,110,30,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/slowking-galarian.png
+200,Misdreavus,Misdreavus,misdreavus,Ghost,,Levitate,,,60,60,60,85,85,85,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/misdreavus.png
+203,Girafarig,Girafarig,girafarig,Normal,Psychic,Inner Focus,Early Bird,Sap Sipper,70,80,65,90,65,85,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/girafarig.png
+204,Pineco,Pineco,pineco,Bug,,Sturdy,,Overcoat,50,65,90,35,35,15,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/pineco.png
+205,Forretress,Forretress,forretress,Bug,Steel,Sturdy,,Overcoat,75,90,140,60,60,40,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/forretress.png
+206,Dunsparce,Dunsparce,dunsparce,Normal,,Serene Grace,Run Away,Rattled,100,70,70,65,65,45,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/dunsparce.png
+211,Qwilfish,Qwilfish,qwilfish,Water,Poison,Poison Point,Swift Swim,Intimidate,65,95,85,55,55,85,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/qwilfish.png
+1104,Qwilfish-1,Hisuian Qwilfish,qwilfish-hisuian,Dark,Poison,Poison Point,Swift Swim,Intimidate,65,95,85,55,55,85,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/qwilfish-hisuian.png
+212,Scizor,Scizor,scizor,Bug,Steel,Swarm,Technician,Light Metal,70,130,100,55,80,65,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/scizor.png
+214,Heracross,Heracross,heracross,Bug,Fighting,Swarm,Guts,Moxie,80,125,75,40,95,85,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/heracross.png
+215,Sneasel,Sneasel,sneasel,Dark,Ice,Inner Focus,Keen Eye,Pickpocket,55,95,55,35,75,115,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/sneasel.png
+1107,Sneasel-1,Hisuian Sneasel,sneasel-hisuian,Fighting,Poison,Inner Focus,Keen Eye,Pickpocket,55,95,55,35,75,115,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/sneasel-hisuian.png
+216,Teddiursa,Teddiursa,teddiursa,Normal,,Pickup,Quick Feet,Honey Gather,60,80,50,50,50,40,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/teddiursa.png
+217,Ursaring,Ursaring,ursaring,Normal,,Guts,Quick Feet,Unnerve,90,130,75,75,75,55,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/ursaring.png
+225,Delibird,Delibird,delibird,Ice,Flying,Vital Spirit,Hustle,Insomnia,45,55,45,65,45,75,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/delibird.png
+228,Houndour,Houndour,houndour,Dark,Fire,Early Bird,Flash Fire,Unnerve,45,60,30,80,50,65,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/houndour.png
+229,Houndoom,Houndoom,houndoom,Dark,Fire,Early Bird,Flash Fire,Unnerve,75,90,50,110,80,95,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/houndoom.png
+231,Phanpy,Phanpy,phanpy,Ground,,Pickup,,Sand Veil,90,60,60,40,40,40,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/phanpy.png
+232,Donphan,Donphan,donphan,Ground,,Sturdy,,Sand Veil,90,120,120,60,60,50,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/donphan.png
+234,Stantler,Stantler,stantler,Normal,,Intimidate,Frisk,Sap Sipper,73,95,62,85,65,85,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/stantler.png
+242,Blissey,Blissey,blissey,Normal,,Natural Cure,Serene Grace,Healer,255,10,10,75,135,55,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/blissey.png
+246,Larvitar,Larvitar,larvitar,Rock,Ground,Guts,,Sand Veil,50,64,50,45,50,41,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/larvitar.png
+247,Pupitar,Pupitar,pupitar,Rock,Ground,Shed Skin,,,70,84,70,65,70,51,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/pupitar.png
+248,Tyranitar,Tyranitar,tyranitar,Rock,Dark,Sand Stream,,Unnerve,100,134,110,95,100,61,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/tyranitar.png
+278,Wingull,Wingull,wingull,Water,Flying,Keen Eye,Hydration,Rain Dish,40,30,30,55,30,85,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/wingull.png
+279,Pelipper,Pelipper,pelipper,Water,Flying,Keen Eye,Drizzle,Rain Dish,60,50,100,95,70,65,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/pelipper.png
+280,Ralts,Ralts,ralts,Psychic,Fairy,Synchronize,Trace,Telepathy,28,25,25,45,35,40,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/ralts.png
+281,Kirlia,Kirlia,kirlia,Psychic,Fairy,Synchronize,Trace,Telepathy,38,35,35,65,55,50,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/kirlia.png
+282,Gardevoir,Gardevoir,gardevoir,Psychic,Fairy,Synchronize,Trace,Telepathy,68,65,65,125,115,80,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/gardevoir.png
+283,Surskit,Surskit,surskit,Bug,Water,Swift Swim,,Rain Dish,40,30,32,50,52,65,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/surskit.png
+284,Masquerain,Masquerain,masquerain,Bug,Flying,Intimidate,,Unnerve,70,60,62,100,82,80,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/masquerain.png
+285,Shroomish,Shroomish,shroomish,Grass,,Effect Spore,Poison Heal,Quick Feet,60,40,60,40,60,35,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/shroomish.png
+286,Breloom,Breloom,breloom,Grass,Fighting,Effect Spore,Poison Heal,Technician,60,130,80,60,60,70,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/breloom.png
+287,Slakoth,Slakoth,slakoth,Normal,,Truant,,,60,60,60,35,35,30,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/slakoth.png
+288,Vigoroth,Vigoroth,vigoroth,Normal,,Vital Spirit,,,80,80,80,55,55,90,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/vigoroth.png
+289,Slaking,Slaking,slaking,Normal,,Truant,,,150,160,100,95,65,100,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/slaking.png
+296,Makuhita,Makuhita,makuhita,Fighting,,Thick Fat,Guts,Sheer Force,72,60,30,20,30,25,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/makuhita.png
+297,Hariyama,Hariyama,hariyama,Fighting,,Thick Fat,Guts,Sheer Force,144,120,60,40,60,50,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/hariyama.png
+298,Azurill,Azurill,azurill,Normal,Fairy,Thick Fat,Huge Power,Sap Sipper,50,20,40,20,40,20,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/azurill.png
+302,Sableye,Sableye,sableye,Dark,Ghost,Keen Eye,Stall,Prankster,50,75,75,65,65,50,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/sableye.png
+307,Meditite,Meditite,meditite,Fighting,Psychic,Pure Power,,Telepathy,30,40,55,40,55,60,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/meditite.png
+308,Medicham,Medicham,medicham,Fighting,Psychic,Pure Power,,Telepathy,60,60,75,60,75,80,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/medicham.png
+316,Gulpin,Gulpin,gulpin,Poison,,Liquid Ooze,Sticky Hold,Gluttony,70,43,53,43,53,40,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/gulpin.png
+317,Swalot,Swalot,swalot,Poison,,Liquid Ooze,Sticky Hold,Gluttony,100,73,83,73,83,55,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/swalot.png
+322,Numel,Numel,numel,Fire,Ground,Oblivious,Simple,Own Tempo,60,60,40,65,45,35,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/numel.png
+323,Camerupt,Camerupt,camerupt,Fire,Ground,Magma Armor,Solid Rock,Anger Point,70,100,70,105,75,40,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/camerupt.png
+324,Torkoal,Torkoal,torkoal,Fire,,White Smoke,Drought,Shell Armor,70,85,140,85,70,20,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/torkoal.png
+325,Spoink,Spoink,spoink,Psychic,,Thick Fat,Own Tempo,Gluttony,60,25,35,70,80,60,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/spoink.png
+326,Grumpig,Grumpig,grumpig,Psychic,,Thick Fat,Own Tempo,Gluttony,80,45,65,90,110,80,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/grumpig.png
+331,Cacnea,Cacnea,cacnea,Grass,,Sand Veil,,Water Absorb,50,85,40,85,40,35,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/cacnea.png
+332,Cacturne,Cacturne,cacturne,Grass,Dark,Sand Veil,,Water Absorb,70,115,60,115,60,55,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/cacturne.png
+333,Swablu,Swablu,swablu,Normal,Flying,Natural Cure,,Cloud Nine,45,40,60,40,75,50,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/swablu.png
+334,Altaria,Altaria,altaria,Dragon,Flying,Natural Cure,,Cloud Nine,75,70,90,70,105,80,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/altaria.png
+335,Zangoose,Zangoose,zangoose,Normal,,Immunity,,Toxic Boost,73,115,60,60,60,90,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/zangoose.png
+336,Seviper,Seviper,seviper,Poison,,Shed Skin,,Infiltrator,73,100,60,100,60,65,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/seviper.png
+339,Barboach,Barboach,barboach,Water,Ground,Oblivious,Anticipation,Hydration,50,48,43,46,41,60,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/barboach.png
+340,Whiscash,Whiscash,whiscash,Water,Ground,Oblivious,Anticipation,Hydration,110,78,73,76,71,60,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/whiscash.png
+353,Shuppet,Shuppet,shuppet,Ghost,,Insomnia,Frisk,Cursed Body,44,75,35,63,33,45,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/shuppet.png
+354,Banette,Banette,banette,Ghost,,Insomnia,Frisk,Cursed Body,64,115,65,83,63,65,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/banette.png
+357,Tropius,Tropius,tropius,Grass,Flying,Chlorophyll,Solar Power,Harvest,99,68,83,72,87,51,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/tropius.png
+361,Snorunt,Snorunt,snorunt,Ice,,Inner Focus,Ice Body,Moody,50,50,50,50,50,50,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/snorunt.png
+362,Glalie,Glalie,glalie,Ice,,Inner Focus,Ice Body,Moody,80,80,80,80,80,80,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/glalie.png
+370,Luvdisc,Luvdisc,luvdisc,Water,,Swift Swim,,Hydration,43,30,55,40,65,97,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/luvdisc.png
+371,Bagon,Bagon,bagon,Dragon,,Rock Head,,Sheer Force,45,75,60,40,30,50,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/bagon.png
+372,Shelgon,Shelgon,shelgon,Dragon,,Rock Head,,Overcoat,65,95,100,60,50,50,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/shelgon.png
+373,Salamence,Salamence,salamence,Dragon,Flying,Intimidate,,Moxie,95,135,80,110,80,100,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/salamence.png
+382,Kyogre,Kyogre,kyogre,Water,,Drizzle,,,100,100,90,150,140,90,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/kyogre.png
+383,Groudon,Groudon,groudon,Ground,,Drought,,,100,150,140,100,90,90,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/groudon.png
+384,Rayquaza,Rayquaza,rayquaza,Dragon,Flying,Air Lock,,,105,150,90,150,90,95,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/rayquaza.png
+396,Starly,Starly,starly,Normal,Flying,Keen Eye,,Reckless,40,55,30,30,30,60,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/starly.png
+397,Staravia,Staravia,staravia,Normal,Flying,Intimidate,,Reckless,55,75,50,40,40,80,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/staravia.png
+398,Staraptor,Staraptor,staraptor,Normal,Flying,Intimidate,,Reckless,85,120,70,50,60,100,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/staraptor.png
+401,Kricketot,Kricketot,kricketot,Bug,,Shed Skin,,Run Away,37,25,41,25,41,25,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/kricketot.png
+402,Kricketune,Kricketune,kricketune,Bug,,Swarm,,Technician,77,85,51,55,51,65,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/kricketune.png
+403,Shinx,Shinx,shinx,Electric,,Rivalry,Intimidate,Guts,45,65,34,40,34,45,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/shinx.png
+404,Luxio,Luxio,luxio,Electric,,Rivalry,Intimidate,Guts,60,85,49,60,49,60,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/luxio.png
+405,Luxray,Luxray,luxray,Electric,,Rivalry,Intimidate,Guts,80,120,79,95,79,70,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/luxray.png
+415,Combee,Combee,combee,Bug,Flying,Honey Gather,,Hustle,30,30,42,30,42,70,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/combee.png
+416,Vespiquen,Vespiquen,vespiquen,Bug,Flying,Pressure,,Unnerve,70,80,102,80,102,40,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/vespiquen.png
+417,Pachirisu,Pachirisu,pachirisu,Electric,,Run Away,Pickup,Volt Absorb,60,45,70,45,90,95,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/pachirisu.png
+418,Buizel,Buizel,buizel,Water,,Swift Swim,,Water Veil,55,65,35,60,30,85,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/buizel.png
+419,Floatzel,Floatzel,floatzel,Water,,Swift Swim,,Water Veil,85,105,55,85,50,115,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/floatzel.png
+422,Shellos,Shellos East,shellos-east,Water,,Sticky Hold,Storm Drain,Sand Force,76,48,48,57,62,34,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/shellos-east.png
+1148,Shellos-1,Shellos West,shellos-west,Water,,Sticky Hold,Storm Drain,Sand Force,76,48,48,57,62,34,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/shellos-west.png
+423,Gastrodon,Gastrodon East,gastrodon-east,Water,Ground,Sticky Hold,Storm Drain,Sand Force,111,83,68,92,82,39,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/gastrodon-east.png
+1149,Gastrodon-1,Gastrodon West,gastrodon-west,Water,Ground,Sticky Hold,Storm Drain,Sand Force,111,83,68,92,82,39,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/gastrodon-west.png
+425,Drifloon,Drifloon,drifloon,Ghost,Flying,Aftermath,Unburden,Flare Boost,90,50,34,60,44,70,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/drifloon.png
+426,Drifblim,Drifblim,drifblim,Ghost,Flying,Aftermath,Unburden,Flare Boost,150,80,44,90,54,80,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/drifblim.png
+429,Mismagius,Mismagius,mismagius,Ghost,,Levitate,,,60,60,60,105,105,105,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/mismagius.png
+430,Honchkrow,Honchkrow,honchkrow,Dark,Flying,Insomnia,Super Luck,Moxie,100,125,52,105,52,71,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/honchkrow.png
+434,Stunky,Stunky,stunky,Poison,Dark,Stench,Aftermath,Keen Eye,63,63,47,41,41,74,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/stunky.png
+435,Skuntank,Skuntank,skuntank,Poison,Dark,Stench,Aftermath,Keen Eye,103,93,67,71,61,84,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/skuntank.png
+436,Bronzor,Bronzor,bronzor,Steel,Psychic,Levitate,Heatproof,Heavy Metal,57,24,86,24,86,23,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/bronzor.png
+437,Bronzong,Bronzong,bronzong,Steel,Psychic,Levitate,Heatproof,Heavy Metal,67,89,116,79,116,33,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/bronzong.png
+438,Bonsly,Bonsly,bonsly,Rock,,Sturdy,Rock Head,Rattled,50,80,95,10,45,10,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/bonsly.png
+440,Happiny,Happiny,happiny,Normal,,Natural Cure,Serene Grace,Friend Guard,100,5,5,15,65,30,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/happiny.png
+442,Spiritomb,Spiritomb,spiritomb,Ghost,Dark,Pressure,,Infiltrator,50,92,108,92,108,35,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/spiritomb.png
+443,Gible,Gible,gible,Dragon,Ground,Sand Veil,,Rough Skin,58,70,45,40,45,42,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/gible.png
+444,Gabite,Gabite,gabite,Dragon,Ground,Sand Veil,,Rough Skin,68,90,65,50,55,82,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/gabite.png
+445,Garchomp,Garchomp,garchomp,Dragon,Ground,Sand Veil,,Rough Skin,108,130,95,80,85,102,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/garchomp.png
+447,Riolu,Riolu,riolu,Fighting,,Steadfast,Inner Focus,Prankster,40,70,40,35,40,60,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/riolu.png
+448,Lucario,Lucario,lucario,Fighting,Steel,Steadfast,Inner Focus,Justified,70,110,70,115,70,90,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/lucario.png
+449,Hippopotas,Hippopotas,hippopotas,Ground,,Sand Stream,,Sand Force,68,72,78,38,42,32,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/hippopotas.png
+450,Hippowdon,Hippowdon,hippowdon,Ground,,Sand Stream,,Sand Force,108,112,118,68,72,47,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/hippowdon.png
+453,Croagunk,Croagunk,croagunk,Poison,Fighting,Anticipation,Dry Skin,Poison Touch,48,61,40,61,40,50,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/croagunk.png
+454,Toxicroak,Toxicroak,toxicroak,Poison,Fighting,Anticipation,Dry Skin,Poison Touch,83,106,65,86,65,85,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/toxicroak.png
+456,Finneon,Finneon,finneon,Water,,Swift Swim,Storm Drain,Water Veil,49,49,56,49,61,66,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/finneon.png
+457,Lumineon,Lumineon,lumineon,Water,,Swift Swim,Storm Drain,Water Veil,69,69,76,69,86,91,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/lumineon.png
+459,Snover,Snover,snover,Grass,Ice,Snow Warning,,Soundproof,60,62,50,62,60,40,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/snover.png
+460,Abomasnow,Abomasnow,abomasnow,Grass,Ice,Snow Warning,,Soundproof,90,92,75,92,85,60,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/abomasnow.png
+461,Weavile,Weavile,weavile,Dark,Ice,Pressure,,Pickpocket,70,120,65,45,85,125,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/weavile.png
+462,Magnezone,Magnezone,magnezone,Electric,Steel,Magnet Pull,Sturdy,Analytic,70,70,115,130,90,60,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/magnezone.png
+470,Leafeon,Leafeon,leafeon,Grass,,Leaf Guard,,Chlorophyll,65,110,130,60,65,95,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/leafeon.png
+471,Glaceon,Glaceon,glaceon,Ice,,Snow Cloak,,Ice Body,65,60,110,130,95,65,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/glaceon.png
+475,Gallade,Gallade,gallade,Psychic,Fighting,Steadfast,Sharpness,Justified,68,125,65,65,115,80,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/gallade.png
+478,Froslass,Froslass,froslass,Ice,Ghost,Snow Cloak,,Cursed Body,70,80,70,80,70,110,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/froslass.png
+479,Rotom,Rotom,rotom,Electric,Ghost,Levitate,,,50,50,77,95,77,91,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/rotom.png
+1155,Rotom-1,Rotom Heat,rotom-heat,Electric,Fire,Levitate,,,50,65,107,105,107,86,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/rotom-heat.png
+1156,Rotom-2,Rotom Wash,rotom-wash,Electric,Water,Levitate,,,50,65,107,105,107,86,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/rotom-wash.png
+1157,Rotom-3,Rotom Frost,rotom-frost,Electric,Ice,Levitate,,,50,65,107,105,107,86,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/rotom-frost.png
+1158,Rotom-4,Rotom Fan,rotom-fan,Electric,Flying,Levitate,,,50,65,107,105,107,86,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/rotom-fan.png
+1159,Rotom-5,Rotom Mow,rotom-mow,Electric,Grass,Levitate,,,50,65,107,105,107,86,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/rotom-mow.png
+480,Uxie,Uxie,uxie,Psychic,,Levitate,,,75,75,130,75,130,95,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/uxie.png
+481,Mesprit,Mesprit,mesprit,Psychic,,Levitate,,,80,105,105,105,105,80,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/mesprit.png
+482,Azelf,Azelf,azelf,Psychic,,Levitate,,,75,125,70,125,70,115,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/azelf.png
+483,Dialga,Dialga,dialga,Steel,Dragon,Pressure,,Telepathy,100,120,120,150,100,90,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/dialga.png
+1160,Dialga-1,Dialga-1,,Steel,Dragon,Pressure,,Telepathy,100,100,120,150,120,90,1,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/.png
+484,Palkia,Palkia,palkia,Water,Dragon,Pressure,,Telepathy,90,120,100,150,120,100,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/palkia.png
+1161,Palkia-1,Palkia-1,,Water,Dragon,Pressure,,Telepathy,90,100,100,150,120,120,1,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/.png
+485,Heatran,Heatran,heatran,Fire,Steel,Flash Fire,,Flame Body,91,90,106,130,106,77,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/heatran.png
+487,Giratina,Giratina,giratina,Ghost,Dragon,Pressure,,Telepathy,150,100,120,100,120,90,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/giratina.png
+1162,Giratina-1,Giratina-1,,Ghost,Dragon,Levitate,,,150,120,100,120,100,90,1,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/.png
+488,Cresselia,Cresselia,cresselia,Psychic,,Levitate,,,120,70,110,75,120,85,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/cresselia.png
+493,Arceus,Arceus,arceus,Normal,,Multitype,,,120,120,120,120,120,120,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/arceus.png
+1164,Arceus-1,Arceus-1,,Fighting,,Multitype,,,120,120,120,120,120,120,1,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/.png
+1165,Arceus-2,Arceus-2,,Flying,,Multitype,,,120,120,120,120,120,120,1,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/.png
+1166,Arceus-3,Arceus-3,,Poison,,Multitype,,,120,120,120,120,120,120,1,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/.png
+1167,Arceus-4,Arceus-4,,Ground,,Multitype,,,120,120,120,120,120,120,1,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/.png
+1168,Arceus-5,Arceus-5,,Rock,,Multitype,,,120,120,120,120,120,120,1,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/.png
+1169,Arceus-6,Arceus-6,,Bug,,Multitype,,,120,120,120,120,120,120,1,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/.png
+1170,Arceus-7,Arceus-7,,Ghost,,Multitype,,,120,120,120,120,120,120,1,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/.png
+1171,Arceus-8,Arceus-8,,Steel,,Multitype,,,120,120,120,120,120,120,1,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/.png
+1172,Arceus-9,Arceus-9,,Fire,,Multitype,,,120,120,120,120,120,120,1,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/.png
+1173,Arceus-10,Arceus-10,,Water,,Multitype,,,120,120,120,120,120,120,1,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/.png
+1174,Arceus-11,Arceus-11,,Grass,,Multitype,,,120,120,120,120,120,120,1,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/.png
+1175,Arceus-12,Arceus-12,,Electric,,Multitype,,,120,120,120,120,120,120,1,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/.png
+1176,Arceus-13,Arceus-13,,Psychic,,Multitype,,,120,120,120,120,120,120,1,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/.png
+1177,Arceus-14,Arceus-14,,Ice,,Multitype,,,120,120,120,120,120,120,1,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/.png
+1178,Arceus-15,Arceus-15,,Dragon,,Multitype,,,120,120,120,120,120,120,1,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/.png
+1179,Arceus-16,Arceus-16,,Dark,,Multitype,,,120,120,120,120,120,120,1,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/.png
+1180,Arceus-17,Arceus-17,,Fairy,,Multitype,,,120,120,120,120,120,120,1,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/.png
+501,Oshawott,Oshawott,oshawott,Water,,Torrent,,Shell Armor,55,55,45,63,45,45,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/oshawott.png
+502,Dewott,Dewott,dewott,Water,,Torrent,,Shell Armor,75,75,60,83,60,60,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/dewott.png
+503,Samurott,Samurott,samurott,Water,,Torrent,,Shell Armor,95,100,85,108,70,70,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/samurott.png
+1181,Samurott-1,Hisuian Samurott,samurott-hisuian,Water,Dark,Torrent,,Sharpness,90,108,80,100,65,85,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/samurott-hisuian.png
+548,Petilil,Petilil,petilil,Grass,,Chlorophyll,Own Tempo,Leaf Guard,45,35,50,70,50,30,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/petilil.png
+549,Lilligant,Lilligant,lilligant,Grass,,Chlorophyll,Own Tempo,Leaf Guard,70,60,75,110,75,90,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/lilligant.png
+1183,Lilligant-1,Hisuian Lilligant,lilligant-hisuian,Grass,Fighting,Chlorophyll,Hustle,Leaf Guard,70,105,75,50,75,105,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/lilligant-hisuian.png
+550,Basculin,Basculin,basculin,Water,,Reckless,Adaptability,Mold Breaker,70,92,65,80,55,98,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/basculin.png
+1184,Basculin-1,Basculin Blue-Striped Form,basculin-blue-striped,Water,,Rock Head,Adaptability,Mold Breaker,70,92,65,80,55,98,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/basculin-blue-striped.png
+1185,Basculin-2,Basculin White-Striped Form,basculin-white-striped,Water,,Rattled,Adaptability,Mold Breaker,70,92,65,80,55,98,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/basculin-white-striped.png
+551,Sandile,Sandile,sandile,Ground,Dark,Intimidate,Moxie,Anger Point,50,72,35,35,35,65,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/sandile.png
+552,Krokorok,Krokorok,krokorok,Ground,Dark,Intimidate,Moxie,Anger Point,60,82,45,45,45,74,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/krokorok.png
+553,Krookodile,Krookodile,krookodile,Ground,Dark,Intimidate,Moxie,Anger Point,95,117,80,65,70,92,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/krookodile.png
+570,Zorua,Zorua,zorua,Dark,,Illusion,,,40,65,40,80,40,65,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/zorua.png
+1191,Zorua-1,Hisuian Zorua,zorua-hisuian,Normal,Ghost,Illusion,,,35,60,40,85,40,70,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/zorua-hisuian.png
+571,Zoroark,Zoroark,zoroark,Dark,,Illusion,,,60,105,60,120,60,105,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/zoroark.png
+1192,Zoroark-1,Hisuian Zoroark,zoroark-hisuian,Normal,Ghost,Illusion,,,60,105,60,120,60,105,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/zoroark-hisuian.png
+574,Gothita,Gothita,gothita,Psychic,,Frisk,Competitive,Shadow Tag,45,30,50,55,65,45,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/gothita.png
+575,Gothorita,Gothorita,gothorita,Psychic,,Frisk,Competitive,Shadow Tag,60,45,70,75,85,55,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/gothorita.png
+576,Gothitelle,Gothitelle,gothitelle,Psychic,,Frisk,Competitive,Shadow Tag,70,55,95,95,110,65,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/gothitelle.png
+585,Deerling,Deerling,deerling,Normal,Grass,Chlorophyll,Sap Sipper,Serene Grace,60,60,50,40,50,75,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/deerling.png
+1193,Deerling-1,Deerling-1,,Normal,Grass,Chlorophyll,Sap Sipper,Serene Grace,60,60,50,40,50,75,1,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/.png
+1194,Deerling-2,Deerling-2,,Normal,Grass,Chlorophyll,Sap Sipper,Serene Grace,60,60,50,40,50,75,1,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/.png
+1195,Deerling-3,Deerling-3,,Normal,Grass,Chlorophyll,Sap Sipper,Serene Grace,60,60,50,40,50,75,1,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/.png
+586,Sawsbuck,Sawsbuck,sawsbuck,Normal,Grass,Chlorophyll,Sap Sipper,Serene Grace,80,100,70,60,70,95,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/sawsbuck.png
+1196,Sawsbuck-1,Sawsbuck-1,,Normal,Grass,Chlorophyll,Sap Sipper,Serene Grace,80,100,70,60,70,95,1,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/.png
+1197,Sawsbuck-2,Sawsbuck-2,,Normal,Grass,Chlorophyll,Sap Sipper,Serene Grace,80,100,70,60,70,95,1,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/.png
+1198,Sawsbuck-3,Sawsbuck-3,,Normal,Grass,Chlorophyll,Sap Sipper,Serene Grace,80,100,70,60,70,95,1,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/.png
+590,Foongus,Foongus,foongus,Grass,Poison,Effect Spore,,Regenerator,69,55,45,55,55,15,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/foongus.png
+591,Amoonguss,Amoonguss,amoonguss,Grass,Poison,Effect Spore,,Regenerator,114,85,70,85,80,30,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/amoonguss.png
+594,Alomomola,Alomomola,alomomola,Water,,Healer,Hydration,Regenerator,165,75,80,40,45,65,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/alomomola.png
+602,Tynamo,Tynamo,tynamo,Electric,,Levitate,,,35,55,40,45,40,60,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/tynamo.png
+603,Eelektrik,Eelektrik,eelektrik,Electric,,Levitate,,,65,85,70,75,70,40,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/eelektrik.png
+604,Eelektross,Eelektross,eelektross,Electric,,Levitate,,,85,115,80,105,80,50,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/eelektross.png
+610,Axew,Axew,axew,Dragon,,Rivalry,Mold Breaker,Unnerve,46,87,60,30,40,57,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/axew.png
+611,Fraxure,Fraxure,fraxure,Dragon,,Rivalry,Mold Breaker,Unnerve,66,117,70,40,50,67,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/fraxure.png
+612,Haxorus,Haxorus,haxorus,Dragon,,Rivalry,Mold Breaker,Unnerve,76,147,90,60,70,97,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/haxorus.png
+613,Cubchoo,Cubchoo,cubchoo,Ice,,Snow Cloak,Slush Rush,Rattled,55,70,40,60,40,40,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/cubchoo.png
+614,Beartic,Beartic,beartic,Ice,,Snow Cloak,Slush Rush,Swift Swim,95,130,80,70,80,50,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/beartic.png
+615,Cryogonal,Cryogonal,cryogonal,Ice,,Levitate,,,80,50,50,95,135,105,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/cryogonal.png
+624,Pawniard,Pawniard,pawniard,Dark,Steel,Defiant,Inner Focus,Pressure,45,85,70,40,40,60,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/pawniard.png
+625,Bisharp,Bisharp,bisharp,Dark,Steel,Defiant,Inner Focus,Pressure,65,125,100,60,70,70,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/bisharp.png
+627,Rufflet,Rufflet,rufflet,Normal,Flying,Keen Eye,Sheer Force,Hustle,70,83,50,37,50,60,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/rufflet.png
+628,Braviary,Braviary,braviary,Normal,Flying,Keen Eye,Sheer Force,Defiant,100,123,75,57,75,80,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/braviary.png
+1200,Braviary-1,Hisuian Braviary,braviary-hisuian,Psychic,Flying,Keen Eye,Sheer Force,Tinted Lens,110,83,70,112,70,65,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/braviary-hisuian.png
+633,Deino,Deino,deino,Dark,Dragon,Hustle,,,52,65,50,45,50,38,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/deino.png
+634,Zweilous,Zweilous,zweilous,Dark,Dragon,Hustle,,,72,85,70,65,70,58,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/zweilous.png
+635,Hydreigon,Hydreigon,hydreigon,Dark,Dragon,Levitate,,,92,105,90,125,90,98,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/hydreigon.png
+636,Larvesta,Larvesta,larvesta,Bug,Fire,Flame Body,,Swarm,55,85,55,50,55,60,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/larvesta.png
+637,Volcarona,Volcarona,volcarona,Bug,Fire,Flame Body,,Swarm,85,60,65,135,105,100,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/volcarona.png
+641,Tornadus,Tornadus,tornadus,Flying,,Prankster,,Defiant,79,115,70,125,80,111,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/tornadus.png
+1201,Tornadus-1,Tornadus-1,,Flying,,Regenerator,,,79,100,80,110,90,121,1,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/.png
+642,Thundurus,Thundurus,thundurus,Electric,Flying,Prankster,,Defiant,79,115,70,125,80,111,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/thundurus.png
+1202,Thundurus-1,Thundurus-1,,Electric,Flying,Volt Absorb,,,79,105,70,145,80,101,1,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/.png
+645,Landorus,Landorus,landorus,Ground,Flying,Sand Force,,Sheer Force,89,125,90,115,80,101,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/landorus.png
+1203,Landorus-1,Landorus-1,,Ground,Flying,Intimidate,,,89,145,90,105,80,91,1,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/.png
+648,Meloetta,Meloetta,meloetta,Normal,Psychic,Serene Grace,,,100,77,77,128,128,90,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/meloetta.png
+1207,Meloetta-1,Meloetta-1,,Normal,Fighting,Serene Grace,,,100,128,90,77,77,128,1,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/.png
+650,Chespin,Chespin,chespin,Grass,,Overgrow,,Bulletproof,56,61,65,48,45,38,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/chespin.png
+651,Quilladin,Quilladin,quilladin,Grass,,Overgrow,,Bulletproof,61,78,95,56,58,57,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/quilladin.png
+652,Chesnaught,Chesnaught,chesnaught,Grass,Fighting,Overgrow,,Bulletproof,88,107,122,74,75,64,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/chesnaught.png
+653,Fennekin,Fennekin,fennekin,Fire,,Blaze,,Magician,40,45,40,62,60,60,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/fennekin.png
+654,Braixen,Braixen,braixen,Fire,,Blaze,,Magician,59,59,58,90,70,73,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/braixen.png
+655,Delphox,Delphox,delphox,Fire,Psychic,Blaze,,Magician,75,69,72,114,100,104,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/delphox.png
+656,Froakie,Froakie,froakie,Water,,Torrent,,Protean,41,56,40,62,44,71,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/froakie.png
+657,Frogadier,Frogadier,frogadier,Water,,Torrent,,Protean,54,63,52,83,56,97,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/frogadier.png
+658,Greninja,Greninja,greninja,Water,Dark,Torrent,,Protean,72,95,67,103,71,122,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/greninja.png
+1212,Greninja-1,Greninja-1,,Water,Dark,Battle Bond,,,72,95,67,103,71,122,1,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/.png
+661,Fletchling,Fletchling,fletchling,Normal,Flying,Big Pecks,,Gale Wings,45,50,43,40,38,62,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/fletchling.png
+662,Fletchinder,Fletchinder,fletchinder,Fire,Flying,Flame Body,,Gale Wings,62,73,55,56,52,84,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/fletchinder.png
+663,Talonflame,Talonflame,talonflame,Fire,Flying,Flame Body,,Gale Wings,78,81,71,74,69,126,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/talonflame.png
+664,Scatterbug,Scatterbug,scatterbug,Bug,,Shield Dust,Compound Eyes,Friend Guard,38,35,40,27,25,35,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/scatterbug.png
+1214,Scatterbug-1,Scatterbug-1,,Bug,,Shield Dust,Compound Eyes,Friend Guard,38,35,40,27,25,35,1,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/.png
+1215,Scatterbug-2,Scatterbug-2,,Bug,,Shield Dust,Compound Eyes,Friend Guard,38,35,40,27,25,35,1,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/.png
+1216,Scatterbug-3,Scatterbug-3,,Bug,,Shield Dust,Compound Eyes,Friend Guard,38,35,40,27,25,35,1,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/.png
+1217,Scatterbug-4,Scatterbug-4,,Bug,,Shield Dust,Compound Eyes,Friend Guard,38,35,40,27,25,35,1,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/.png
+1218,Scatterbug-5,Scatterbug-5,,Bug,,Shield Dust,Compound Eyes,Friend Guard,38,35,40,27,25,35,1,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/.png
+1219,Scatterbug-6,Scatterbug-6,,Bug,,Shield Dust,Compound Eyes,Friend Guard,38,35,40,27,25,35,1,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/.png
+1220,Scatterbug-7,Scatterbug-7,,Bug,,Shield Dust,Compound Eyes,Friend Guard,38,35,40,27,25,35,1,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/.png
+1221,Scatterbug-8,Scatterbug-8,,Bug,,Shield Dust,Compound Eyes,Friend Guard,38,35,40,27,25,35,1,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/.png
+1222,Scatterbug-9,Scatterbug-9,,Bug,,Shield Dust,Compound Eyes,Friend Guard,38,35,40,27,25,35,1,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/.png
+1223,Scatterbug-10,Scatterbug-10,,Bug,,Shield Dust,Compound Eyes,Friend Guard,38,35,40,27,25,35,1,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/.png
+1224,Scatterbug-11,Scatterbug-11,,Bug,,Shield Dust,Compound Eyes,Friend Guard,38,35,40,27,25,35,1,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/.png
+1225,Scatterbug-12,Scatterbug-12,,Bug,,Shield Dust,Compound Eyes,Friend Guard,38,35,40,27,25,35,1,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/.png
+1226,Scatterbug-13,Scatterbug-13,,Bug,,Shield Dust,Compound Eyes,Friend Guard,38,35,40,27,25,35,1,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/.png
+1227,Scatterbug-14,Scatterbug-14,,Bug,,Shield Dust,Compound Eyes,Friend Guard,38,35,40,27,25,35,1,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/.png
+1228,Scatterbug-15,Scatterbug-15,,Bug,,Shield Dust,Compound Eyes,Friend Guard,38,35,40,27,25,35,1,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/.png
+1229,Scatterbug-16,Scatterbug-16,,Bug,,Shield Dust,Compound Eyes,Friend Guard,38,35,40,27,25,35,1,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/.png
+1230,Scatterbug-17,Scatterbug-17,,Bug,,Shield Dust,Compound Eyes,Friend Guard,38,35,40,27,25,35,1,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/.png
+1231,Scatterbug-18,Scatterbug-18,,Bug,,Shield Dust,Compound Eyes,Friend Guard,38,35,40,27,25,35,1,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/.png
+1232,Scatterbug-19,Scatterbug-19,,Bug,,Shield Dust,Compound Eyes,Friend Guard,38,35,40,27,25,35,1,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/.png
+665,Spewpa,Spewpa,spewpa,Bug,,Shed Skin,,Friend Guard,45,22,60,27,30,29,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/spewpa.png
+1233,Spewpa-1,Spewpa-1,,Bug,,Shed Skin,,Friend Guard,45,22,60,27,30,29,1,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/.png
+1234,Spewpa-2,Spewpa-2,,Bug,,Shed Skin,,Friend Guard,45,22,60,27,30,29,1,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/.png
+1235,Spewpa-3,Spewpa-3,,Bug,,Shed Skin,,Friend Guard,45,22,60,27,30,29,1,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/.png
+1236,Spewpa-4,Spewpa-4,,Bug,,Shed Skin,,Friend Guard,45,22,60,27,30,29,1,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/.png
+1237,Spewpa-5,Spewpa-5,,Bug,,Shed Skin,,Friend Guard,45,22,60,27,30,29,1,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/.png
+1238,Spewpa-6,Spewpa-6,,Bug,,Shed Skin,,Friend Guard,45,22,60,27,30,29,1,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/.png
+1239,Spewpa-7,Spewpa-7,,Bug,,Shed Skin,,Friend Guard,45,22,60,27,30,29,1,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/.png
+1240,Spewpa-8,Spewpa-8,,Bug,,Shed Skin,,Friend Guard,45,22,60,27,30,29,1,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/.png
+1241,Spewpa-9,Spewpa-9,,Bug,,Shed Skin,,Friend Guard,45,22,60,27,30,29,1,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/.png
+1242,Spewpa-10,Spewpa-10,,Bug,,Shed Skin,,Friend Guard,45,22,60,27,30,29,1,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/.png
+1243,Spewpa-11,Spewpa-11,,Bug,,Shed Skin,,Friend Guard,45,22,60,27,30,29,1,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/.png
+1244,Spewpa-12,Spewpa-12,,Bug,,Shed Skin,,Friend Guard,45,22,60,27,30,29,1,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/.png
+1245,Spewpa-13,Spewpa-13,,Bug,,Shed Skin,,Friend Guard,45,22,60,27,30,29,1,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/.png
+1246,Spewpa-14,Spewpa-14,,Bug,,Shed Skin,,Friend Guard,45,22,60,27,30,29,1,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/.png
+1247,Spewpa-15,Spewpa-15,,Bug,,Shed Skin,,Friend Guard,45,22,60,27,30,29,1,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/.png
+1248,Spewpa-16,Spewpa-16,,Bug,,Shed Skin,,Friend Guard,45,22,60,27,30,29,1,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/.png
+1249,Spewpa-17,Spewpa-17,,Bug,,Shed Skin,,Friend Guard,45,22,60,27,30,29,1,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/.png
+1250,Spewpa-18,Spewpa-18,,Bug,,Shed Skin,,Friend Guard,45,22,60,27,30,29,1,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/.png
+1251,Spewpa-19,Spewpa-19,,Bug,,Shed Skin,,Friend Guard,45,22,60,27,30,29,1,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/.png
+666,Vivillon,Vivillon,vivillon-fancy,Bug,Flying,Shield Dust,Compound Eyes,Friend Guard,80,52,50,90,50,89,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/vivillon-fancy.png
+1252,Vivillon-1,Vivillon-1,,Bug,Flying,Shield Dust,Compound Eyes,Friend Guard,80,52,50,90,50,89,1,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/.png
+1253,Vivillon-2,Vivillon-2,,Bug,Flying,Shield Dust,Compound Eyes,Friend Guard,80,52,50,90,50,89,1,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/.png
+1254,Vivillon-3,Vivillon-3,,Bug,Flying,Shield Dust,Compound Eyes,Friend Guard,80,52,50,90,50,89,1,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/.png
+1255,Vivillon-4,Vivillon-4,,Bug,Flying,Shield Dust,Compound Eyes,Friend Guard,80,52,50,90,50,89,1,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/.png
+1256,Vivillon-5,Vivillon-5,,Bug,Flying,Shield Dust,Compound Eyes,Friend Guard,80,52,50,90,50,89,1,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/.png
+1257,Vivillon-6,Vivillon-6,,Bug,Flying,Shield Dust,Compound Eyes,Friend Guard,80,52,50,90,50,89,1,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/.png
+1258,Vivillon-7,Vivillon-7,,Bug,Flying,Shield Dust,Compound Eyes,Friend Guard,80,52,50,90,50,89,1,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/.png
+1259,Vivillon-8,Vivillon-8,,Bug,Flying,Shield Dust,Compound Eyes,Friend Guard,80,52,50,90,50,89,1,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/.png
+1260,Vivillon-9,Vivillon-9,,Bug,Flying,Shield Dust,Compound Eyes,Friend Guard,80,52,50,90,50,89,1,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/.png
+1261,Vivillon-10,Vivillon-10,,Bug,Flying,Shield Dust,Compound Eyes,Friend Guard,80,52,50,90,50,89,1,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/.png
+1262,Vivillon-11,Vivillon-11,,Bug,Flying,Shield Dust,Compound Eyes,Friend Guard,80,52,50,90,50,89,1,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/.png
+1263,Vivillon-12,Vivillon-12,,Bug,Flying,Shield Dust,Compound Eyes,Friend Guard,80,52,50,90,50,89,1,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/.png
+1264,Vivillon-13,Vivillon-13,,Bug,Flying,Shield Dust,Compound Eyes,Friend Guard,80,52,50,90,50,89,1,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/.png
+1265,Vivillon-14,Vivillon-14,,Bug,Flying,Shield Dust,Compound Eyes,Friend Guard,80,52,50,90,50,89,1,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/.png
+1266,Vivillon-15,Vivillon-15,,Bug,Flying,Shield Dust,Compound Eyes,Friend Guard,80,52,50,90,50,89,1,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/.png
+1267,Vivillon-16,Vivillon-16,,Bug,Flying,Shield Dust,Compound Eyes,Friend Guard,80,52,50,90,50,89,1,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/.png
+1268,Vivillon-17,Vivillon-17,,Bug,Flying,Shield Dust,Compound Eyes,Friend Guard,80,52,50,90,50,89,1,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/.png
+1269,Vivillon-18,Vivillon-18,,Bug,Flying,Shield Dust,Compound Eyes,Friend Guard,80,52,50,90,50,89,1,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/.png
+1270,Vivillon-19,Vivillon-19,,Bug,Flying,Shield Dust,Compound Eyes,Friend Guard,80,52,50,90,50,89,1,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/.png
+667,Litleo,Litleo,litleo,Fire,Normal,Rivalry,Unnerve,Moxie,62,50,58,73,54,72,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/litleo.png
+668,Pyroar,Pyroar,pyroar,Fire,Normal,Rivalry,Unnerve,Moxie,86,68,72,109,66,106,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/pyroar.png
+669,Flabébé,Flabébé Red,flabebe-red,Fairy,,Flower Veil,,Symbiosis,44,38,39,61,79,42,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/flabebe-red.png
+1271,Flabébé-1,Flabébé Blue,flabebe-blue,Fairy,,Flower Veil,,Symbiosis,44,38,39,61,79,42,1,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/flabebe-blue.png
+1272,Flabébé-2,Flabébé Orange,flabebe-orange,Fairy,,Flower Veil,,Symbiosis,44,38,39,61,79,42,1,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/flabebe-orange.png
+1273,Flabébé-3,Flabébé White,flabebe-white,Fairy,,Flower Veil,,Symbiosis,44,38,39,61,79,42,1,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/flabebe-white.png
+1274,Flabébé-4,Flabébé Yellow,flabebe-yellow,Fairy,,Flower Veil,,Symbiosis,44,38,39,61,79,42,1,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/flabebe-yellow.png
+670,Floette,Floette Red,floette-red,Fairy,,Flower Veil,,Symbiosis,54,45,47,75,98,52,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/floette-red.png
+1275,Floette-1,Floette Blue,floette-blue,Fairy,,Flower Veil,,Symbiosis,54,45,47,75,98,52,1,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/floette-blue.png
+1276,Floette-2,Floette Orange,floette-orange,Fairy,,Flower Veil,,Symbiosis,54,45,47,75,98,52,1,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/floette-orange.png
+1277,Floette-3,Floette White,floette-white,Fairy,,Flower Veil,,Symbiosis,54,45,47,75,98,52,1,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/floette-white.png
+1278,Floette-4,Floette Yellow,floette-yellow,Fairy,,Flower Veil,,Symbiosis,54,45,47,75,98,52,1,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/floette-yellow.png
+671,Florges,Florges Red,florges-red,Fairy,,Flower Veil,,Symbiosis,78,65,68,112,154,75,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/florges-red.png
+1280,Florges-1,Florges Blue,florges-blue,Fairy,,Flower Veil,,Symbiosis,78,65,68,112,154,75,1,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/florges-blue.png
+1281,Florges-2,Florges Orange,florges-orange,Fairy,,Flower Veil,,Symbiosis,78,65,68,112,154,75,1,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/florges-orange.png
+1282,Florges-3,Florges White,florges-white,Fairy,,Flower Veil,,Symbiosis,78,65,68,112,154,75,1,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/florges-white.png
+1283,Florges-4,Florges Yellow,florges-yellow,Fairy,,Flower Veil,,Symbiosis,78,65,68,112,154,75,1,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/florges-yellow.png
+672,Skiddo,Skiddo,skiddo,Grass,,Sap Sipper,,Grass Pelt,66,65,48,62,57,52,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/skiddo.png
+673,Gogoat,Gogoat,gogoat,Grass,,Sap Sipper,,Grass Pelt,123,100,62,97,81,68,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/gogoat.png
+690,Skrelp,Skrelp,skrelp,Poison,Water,Poison Point,Poison Touch,Adaptability,50,60,60,60,60,30,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/skrelp.png
+691,Dragalge,Dragalge,dragalge,Poison,Dragon,Poison Point,Poison Touch,Adaptability,65,75,90,97,123,44,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/dragalge.png
+692,Clauncher,Clauncher,clauncher,Water,,Mega Launcher,,,50,53,62,58,63,44,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/clauncher.png
+693,Clawitzer,Clawitzer,clawitzer,Water,,Mega Launcher,,,71,73,88,120,89,59,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/clawitzer.png
+700,Sylveon,Sylveon,sylveon,Fairy,,Cute Charm,,Pixilate,95,65,65,110,130,60,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/sylveon.png
+701,Hawlucha,Hawlucha,hawlucha,Fighting,Flying,Limber,Unburden,Mold Breaker,78,92,75,74,63,118,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/hawlucha.png
+702,Dedenne,Dedenne,dedenne,Electric,Fairy,Cheek Pouch,Pickup,Plus,67,58,57,81,67,101,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/dedenne.png
+703,Carbink,Carbink,carbink,Rock,Fairy,Clear Body,,Sturdy,50,50,150,50,150,50,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/carbink.png
+704,Goomy,Goomy,goomy,Dragon,,Sap Sipper,Hydration,Gooey,45,50,35,55,75,40,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/goomy.png
+705,Sliggoo,Sliggoo,sliggoo,Dragon,,Sap Sipper,Hydration,Gooey,68,75,53,83,113,60,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/sliggoo.png
+1295,Sliggoo-1,Hisuian Sliggoo,sliggoo-hisuian,Steel,Dragon,Sap Sipper,Shell Armor,Gooey,58,75,83,83,113,40,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/sliggoo-hisuian.png
+706,Goodra,Goodra,goodra,Dragon,,Sap Sipper,Hydration,Gooey,90,100,70,110,150,80,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/goodra.png
+1296,Goodra-1,Hisuian Goodra,goodra-hisuian,Steel,Dragon,Sap Sipper,Shell Armor,Gooey,80,100,100,110,150,60,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/goodra-hisuian.png
+707,Klefki,Klefki,klefki,Steel,Fairy,Prankster,,Magician,57,80,91,80,87,75,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/klefki.png
+712,Bergmite,Bergmite,bergmite,Ice,,Own Tempo,Ice Body,Sturdy,55,69,85,32,35,28,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/bergmite.png
+713,Avalugg,Avalugg,avalugg,Ice,,Own Tempo,Ice Body,Sturdy,95,117,184,44,46,28,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/avalugg.png
+1303,Avalugg-1,Hisuian Avalugg,avalugg-hisuian,Ice,Rock,Strong Jaw,Ice Body,Sturdy,95,127,184,34,36,38,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/avalugg-hisuian.png
+714,Noibat,Noibat,noibat,Flying,Dragon,Frisk,Infiltrator,Telepathy,40,30,35,45,40,55,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/noibat.png
+715,Noivern,Noivern,noivern,Flying,Dragon,Frisk,Infiltrator,Telepathy,85,70,80,97,80,123,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/noivern.png
+719,Diancie,Diancie,diancie,Rock,Fairy,Clear Body,,,50,100,150,100,150,50,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/diancie.png
+720,Hoopa,Hoopa,hoopa,Psychic,Ghost,Magician,,,80,110,60,150,130,70,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/hoopa.png
+1310,Hoopa-1,Hoopa-1,,Psychic,Dark,Magician,,,80,160,60,170,130,80,1,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/.png
+721,Volcanion,Volcanion,volcanion,Fire,Water,Water Absorb,,,80,110,120,130,90,70,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/volcanion.png
+722,Rowlet,Rowlet,rowlet,Grass,Flying,Overgrow,,Long Reach,68,55,55,50,50,42,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/rowlet.png
+723,Dartrix,Dartrix,dartrix,Grass,Flying,Overgrow,,Long Reach,78,75,75,70,70,52,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/dartrix.png
+724,Decidueye,Decidueye,decidueye,Grass,Ghost,Overgrow,,Long Reach,78,107,75,100,100,70,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/decidueye.png
+1311,Decidueye-1,Hisuian Decidueye,decidueye-hisuian,Grass,Fighting,Overgrow,,Scrappy,88,112,80,95,95,60,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/decidueye-hisuian.png
+734,Yungoos,Yungoos,yungoos,Normal,,Stakeout,Strong Jaw,Adaptability,48,70,30,30,30,45,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/yungoos.png
+735,Gumshoos,Gumshoos,gumshoos,Normal,,Stakeout,Strong Jaw,Adaptability,88,110,60,55,60,45,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/gumshoos.png
+739,Crabrawler,Crabrawler,crabrawler,Fighting,,Hyper Cutter,Iron Fist,Anger Point,47,82,57,42,47,63,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/crabrawler.png
+740,Crabominable,Crabominable,crabominable,Fighting,Ice,Hyper Cutter,Iron Fist,Anger Point,97,132,77,62,67,43,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/crabominable.png
+741,Oricorio,Oricorio Baile,oricorio-baile,Fire,Flying,Dancer,,,75,70,70,98,70,93,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/oricorio-baile.png
+1312,Oricorio-1,Oricorio Pom-pom Style,oricorio-pom-pom,Electric,Flying,Dancer,,,75,70,70,98,70,93,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/oricorio-pom-pom.png
+1313,Oricorio-2,Oricorio P'au Style,oricorio-pau,Psychic,Flying,Dancer,,,75,70,70,98,70,93,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/oricorio-pau.png
+1314,Oricorio-3,Oricorio Sensu Style,oricorio-sensu,Ghost,Flying,Dancer,,,75,70,70,98,70,93,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/oricorio-sensu.png
+744,Rockruff,Rockruff,rockruff,Rock,,Keen Eye,Vital Spirit,Steadfast,45,65,40,30,40,60,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/rockruff.png
+1315,Rockruff-1,Rockruff Own Tempo,rockruff-own-tempo,Rock,,Own Tempo,,,45,65,40,30,40,60,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/rockruff-own-tempo.png
+745,Lycanroc,Lycanroc Midday,lycanroc-midday,Rock,,Keen Eye,Sand Rush,Steadfast,75,115,65,55,65,112,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/lycanroc-midday.png
+1316,Lycanroc-1,Lycanroc Midnight,lycanroc-midnight,Rock,,Keen Eye,Vital Spirit,No Guard,85,115,75,55,75,82,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/lycanroc-midnight.png
+1317,Lycanroc-2,Lycanroc Dusk,lycanroc-dusk,Rock,,Tough Claws,,,75,117,65,55,65,110,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/lycanroc-dusk.png
+747,Mareanie,Mareanie,mareanie,Poison,Water,Merciless,Limber,Regenerator,50,53,62,43,52,45,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/mareanie.png
+748,Toxapex,Toxapex,toxapex,Poison,Water,Merciless,Limber,Regenerator,50,63,152,53,142,35,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/toxapex.png
+749,Mudbray,Mudbray,mudbray,Ground,,Own Tempo,Stamina,Inner Focus,70,100,70,45,55,45,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/mudbray.png
+750,Mudsdale,Mudsdale,mudsdale,Ground,,Own Tempo,Stamina,Inner Focus,100,125,100,55,85,35,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/mudsdale.png
+753,Fomantis,Fomantis,fomantis,Grass,,Leaf Guard,,Contrary,40,55,35,50,35,35,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/fomantis.png
+754,Lurantis,Lurantis,lurantis,Grass,,Leaf Guard,,Contrary,70,105,90,80,90,45,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/lurantis.png
+757,Salandit,Salandit,salandit,Poison,Fire,Corrosion,,Oblivious,48,44,40,71,40,77,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/salandit.png
+758,Salazzle,Salazzle,salazzle,Poison,Fire,Corrosion,,Oblivious,68,64,60,111,60,117,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/salazzle.png
+761,Bounsweet,Bounsweet,bounsweet,Grass,,Leaf Guard,Oblivious,Sweet Veil,42,30,38,30,38,32,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/bounsweet.png
+762,Steenee,Steenee,steenee,Grass,,Leaf Guard,Oblivious,Sweet Veil,52,40,48,40,48,62,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/steenee.png
+763,Tsareena,Tsareena,tsareena,Grass,,Leaf Guard,Queenly Majesty,Sweet Veil,72,120,98,50,98,72,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/tsareena.png
+765,Oranguru,Oranguru,oranguru,Normal,Psychic,Inner Focus,Telepathy,Symbiosis,90,60,80,90,110,60,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/oranguru.png
+766,Passimian,Passimian,passimian,Fighting,,Receiver,,Defiant,100,120,90,40,60,80,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/passimian.png
+769,Sandygast,Sandygast,sandygast,Ghost,Ground,Water Compaction,,Sand Veil,55,55,80,70,45,15,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/sandygast.png
+770,Palossand,Palossand,palossand,Ghost,Ground,Water Compaction,,Sand Veil,85,75,110,100,75,35,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/palossand.png
+775,Komala,Komala,komala,Normal,,Comatose,,,65,115,65,75,95,65,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/komala.png
+778,Mimikyu,Mimikyu,mimikyu,Ghost,Fairy,Disguise,,,55,90,80,50,105,96,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/mimikyu.png
+1349,Mimikyu-1,Mimikyu-1,,Ghost,Fairy,Disguise,,,55,90,80,50,105,96,1,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/.png
+779,Bruxish,Bruxish,bruxish,Water,Psychic,Dazzling,Strong Jaw,Wonder Skin,68,105,70,70,70,92,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/bruxish.png
+801,Magearna,Magearna,magearna,Steel,Fairy,Soul-Heart,,,80,95,115,130,115,65,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/magearna.png
+1353,Magearna-1,Magearna Original Color,magearna-original,Steel,Fairy,Soul-Heart,,,80,95,115,130,115,65,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/magearna-original.png
+810,Grookey,Grookey,grookey,Grass,,Overgrow,,Grassy Surge,50,65,50,40,40,65,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/grookey.png
+811,Thwackey,Thwackey,thwackey,Grass,,Overgrow,,Grassy Surge,70,85,70,55,60,80,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/thwackey.png
+812,Rillaboom,Rillaboom,rillaboom,Grass,,Overgrow,,Grassy Surge,100,125,90,60,70,85,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/rillaboom.png
+813,Scorbunny,Scorbunny,scorbunny,Fire,,Blaze,,Libero,50,71,40,40,40,69,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/scorbunny.png
+814,Raboot,Raboot,raboot,Fire,,Blaze,,Libero,65,86,60,55,60,94,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/raboot.png
+815,Cinderace,Cinderace,cinderace,Fire,,Blaze,,Libero,80,116,75,65,75,119,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/cinderace.png
+816,Sobble,Sobble,sobble,Water,,Torrent,,Sniper,50,40,40,70,40,70,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/sobble.png
+817,Drizzile,Drizzile,drizzile,Water,,Torrent,,Sniper,65,60,55,95,55,90,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/drizzile.png
+818,Inteleon,Inteleon,inteleon,Water,,Torrent,,Sniper,70,85,65,125,65,120,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/inteleon.png
+819,Skwovet,Skwovet,skwovet,Normal,,Cheek Pouch,,Gluttony,70,55,55,35,35,25,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/skwovet.png
+820,Greedent,Greedent,greedent,Normal,,Cheek Pouch,,Gluttony,120,95,95,55,75,20,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/greedent.png
+821,Rookidee,Rookidee,rookidee,Flying,,Keen Eye,Unnerve,Big Pecks,38,47,35,33,35,57,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/rookidee.png
+822,Corvisquire,Corvisquire,corvisquire,Flying,,Keen Eye,Unnerve,Big Pecks,68,67,55,43,55,77,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/corvisquire.png
+823,Corviknight,Corviknight,corviknight,Flying,Steel,Pressure,Unnerve,Mirror Armor,98,87,105,53,85,67,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/corviknight.png
+833,Chewtle,Chewtle,chewtle,Water,,Strong Jaw,Shell Armor,Swift Swim,50,64,50,38,38,44,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/chewtle.png
+834,Drednaw,Drednaw,drednaw,Water,Rock,Strong Jaw,Shell Armor,Swift Swim,90,115,90,48,68,74,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/drednaw.png
+837,Rolycoly,Rolycoly,rolycoly,Rock,,Steam Engine,Heatproof,Flash Fire,30,40,50,40,50,30,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/rolycoly.png
+838,Carkol,Carkol,carkol,Rock,Fire,Steam Engine,Flame Body,Flash Fire,80,60,90,60,70,50,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/carkol.png
+839,Coalossal,Coalossal,coalossal,Rock,Fire,Steam Engine,Flame Body,Flash Fire,110,80,120,80,90,30,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/coalossal.png
+840,Applin,Applin,applin,Grass,Dragon,Ripen,Gluttony,Bulletproof,40,40,80,40,40,20,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/applin.png
+841,Flapple,Flapple,flapple,Grass,Dragon,Ripen,Gluttony,Hustle,70,110,80,95,60,70,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/flapple.png
+842,Appletun,Appletun,appletun,Grass,Dragon,Ripen,Gluttony,Thick Fat,110,85,80,100,80,30,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/appletun.png
+843,Silicobra,Silicobra,silicobra,Ground,,Sand Spit,Shed Skin,Sand Veil,52,57,75,35,50,46,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/silicobra.png
+844,Sandaconda,Sandaconda,sandaconda,Ground,,Sand Spit,Shed Skin,Sand Veil,72,107,125,65,70,71,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/sandaconda.png
+846,Arrokuda,Arrokuda,arrokuda,Water,,Swift Swim,,Propeller Tail,41,63,40,40,30,66,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/arrokuda.png
+847,Barraskewda,Barraskewda,barraskewda,Water,,Swift Swim,,Propeller Tail,61,123,60,60,50,136,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/barraskewda.png
+848,Toxel,Toxel,toxel,Electric,Poison,Rattled,Static,Klutz,40,38,35,54,35,40,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/toxel.png
+849,Toxtricity,Toxtricity,toxtricity,Electric,Poison,Punk Rock,Plus,Technician,75,98,70,114,70,75,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/toxtricity.png
+1356,Toxtricity-1,Toxtricity Low Key Form,toxtricity-low-key,Electric,Poison,Punk Rock,Minus,Technician,75,98,70,114,70,75,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/toxtricity-low-key.png
+854,Sinistea,Sinistea,sinistea,Ghost,,Weak Armor,,Cursed Body,40,45,45,74,54,50,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/sinistea.png
+1357,Sinistea-1,Sinistea-1,,Ghost,,Weak Armor,,Cursed Body,40,45,45,74,54,50,1,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/.png
+855,Polteageist,Polteageist,polteageist,Ghost,,Weak Armor,,Cursed Body,60,65,65,134,114,70,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/polteageist.png
+1358,Polteageist-1,Polteageist-1,,Ghost,,Weak Armor,,Cursed Body,60,65,65,134,114,70,1,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/.png
+856,Hatenna,Hatenna,hatenna,Psychic,,Healer,Anticipation,Magic Bounce,42,30,45,56,53,39,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/hatenna.png
+857,Hattrem,Hattrem,hattrem,Psychic,,Healer,Anticipation,Magic Bounce,57,40,65,86,73,49,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/hattrem.png
+858,Hatterene,Hatterene,hatterene,Psychic,Fairy,Healer,Anticipation,Magic Bounce,57,90,95,136,103,29,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/hatterene.png
+859,Impidimp,Impidimp,impidimp,Dark,Fairy,Prankster,Frisk,Pickpocket,45,45,30,55,40,50,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/impidimp.png
+860,Morgrem,Morgrem,morgrem,Dark,Fairy,Prankster,Frisk,Pickpocket,65,60,45,75,55,70,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/morgrem.png
+861,Grimmsnarl,Grimmsnarl,grimmsnarl,Dark,Fairy,Prankster,Frisk,Pickpocket,95,120,65,95,75,60,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/grimmsnarl.png
+863,Perrserker,Perrserker,perrserker,Steel,,Battle Armor,Tough Claws,Steely Spirit,70,110,100,50,60,50,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/perrserker.png
+870,Falinks,Falinks,falinks,Fighting,,Battle Armor,,Defiant,65,100,100,70,60,75,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/falinks.png
+871,Pincurchin,Pincurchin,pincurchin,Electric,,Lightning Rod,,Electric Surge,48,101,95,91,85,15,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/pincurchin.png
+872,Snom,Snom,snom,Ice,Bug,Shield Dust,,Ice Scales,30,25,35,45,30,20,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/snom.png
+873,Frosmoth,Frosmoth,frosmoth,Ice,Bug,Shield Dust,,Ice Scales,70,65,60,125,90,65,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/frosmoth.png
+874,Stonjourner,Stonjourner,stonjourner,Rock,,Power Spot,,,100,125,135,20,20,70,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/stonjourner.png
+875,Eiscue,Eiscue,eiscue,Ice,,Ice Face,,,75,80,110,65,90,50,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/eiscue.png
+1367,Eiscue-1,Eiscue-1,,Ice,,Ice Face,,,75,80,70,65,50,130,1,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/.png
+876,Indeedee,Indeedee,indeedee,Psychic,Normal,Inner Focus,Synchronize,Psychic Surge,60,65,55,105,95,95,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/indeedee.png
+1368,Indeedee-1,Indeedee Female,indeedee-f,Psychic,Normal,Own Tempo,Synchronize,Psychic Surge,70,55,65,95,105,85,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/indeedee-f.png
+878,Cufant,Cufant,cufant,Steel,,Sheer Force,,Heavy Metal,72,80,49,40,49,40,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/cufant.png
+879,Copperajah,Copperajah,copperajah,Steel,,Sheer Force,,Heavy Metal,122,130,69,80,69,30,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/copperajah.png
+885,Dreepy,Dreepy,dreepy,Dragon,Ghost,Clear Body,Infiltrator,Cursed Body,28,60,30,40,30,82,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/dreepy.png
+886,Drakloak,Drakloak,drakloak,Dragon,Ghost,Clear Body,Infiltrator,Cursed Body,68,80,50,60,50,102,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/drakloak.png
+887,Dragapult,Dragapult,dragapult,Dragon,Ghost,Clear Body,Infiltrator,Cursed Body,88,120,75,100,75,142,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/dragapult.png
+888,Zacian,Zacian,zacian,Fairy,,Intrepid Sword,,,92,120,115,80,115,138,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/zacian.png
+1370,Zacian-1,Zacian-1,,Fairy,Steel,Intrepid Sword,,,92,150,115,80,115,148,1,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/.png
+889,Zamazenta,Zamazenta,zamazenta,Fighting,,Dauntless Shield,,,92,120,115,80,115,138,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/zamazenta.png
+1371,Zamazenta-1,Zamazenta-1,,Fighting,Steel,Dauntless Shield,,,92,120,140,80,140,128,1,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/.png
+890,Eternatus,Eternatus,eternatus,Poison,Dragon,Pressure,,,140,85,95,145,95,130,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/eternatus.png
+891,Kubfu,Kubfu,kubfu,Fighting,,Inner Focus,,No Guard,60,90,60,53,50,72,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/kubfu.png
+892,Urshifu,Urshifu,urshifu,Fighting,Dark,Unseen Fist,,,100,130,100,63,60,97,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/urshifu.png
+1373,Urshifu-1,Urshifu Rapid Strike,urshifu-rapid-strike,Fighting,Water,Unseen Fist,,,100,130,100,63,60,97,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/urshifu-rapid-strike.png
+893,Zarude,Zarude,zarude,Dark,Grass,Leaf Guard,,,105,120,105,70,95,105,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/zarude.png
+1374,Zarude-1,Zarude Dada,zarude-dada,Dark,Grass,Leaf Guard,,,105,120,105,70,95,105,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/zarude-dada.png
+894,Regieleki,Regieleki,regieleki,Electric,,Transistor,,,80,100,50,100,50,200,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/regieleki.png
+895,Regidrago,Regidrago,regidrago,Dragon,,Dragon’s Maw,,,200,100,50,100,50,80,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/regidrago.png
+896,Glastrier,Glastrier,glastrier,Ice,,Chilling Neigh,,,100,145,130,65,110,30,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/glastrier.png
+897,Spectrier,Spectrier,spectrier,Ghost,,Grim Neigh,,,100,65,60,145,80,130,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/spectrier.png
+898,Calyrex,Calyrex,calyrex,Psychic,Grass,Unnerve,,,100,80,80,80,80,80,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/calyrex.png
+1375,Calyrex-1,Calyrex Ice Rider,calyrex-ice,Psychic,Ice,As One,,,100,165,150,85,130,50,,https://img.pokemondb.net/sprites/home/normal/1x/calyrex-ice-rider.png
+1376,Calyrex-2,Calyrex Shadow Rider,calyrex-shadow,Psychic,Ghost,As One,,,100,85,80,165,100,150,,https://img.pokemondb.net/sprites/home/normal/1x/calyrex-shadow-rider.png
+899,Wyrdeer,Wyrdeer,wyrdeer,Normal,Psychic,Intimidate,Frisk,Sap Sipper,103,105,72,105,75,65,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/wyrdeer.png
+900,Kleavor,Kleavor,kleavor,Bug,Rock,Swarm,Sheer Force,Sharpness,70,130,95,45,75,85,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/kleavor.png
+901,Ursaluna,Ursaluna,ursaluna,Ground,Normal,Guts,Bulletproof,Unnerve,130,140,105,45,80,50,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/ursaluna.png
+902,Basculegion,Basculegion,basculegion,Water,Ghost,Swift Swim,Adaptability,Mold Breaker,120,112,65,80,75,78,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/basculegion.png
+1377,Basculegion-1,Basculegion Female,basculegion-f,Water,Ghost,Swift Swim,Adaptability,Mold Breaker,120,92,65,100,75,78,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/basculegion-f.png
+903,Sneasler,Sneasler,sneasler,Fighting,Poison,Pressure,Unburden,Poison Touch,80,130,60,40,80,120,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/sneasler.png
+904,Overqwil,Overqwil,overqwil,Dark,Poison,Poison Point,Swift Swim,Intimidate,85,115,95,65,65,85,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/overqwil.png
+905,Enamorus,Enamorus,enamorus,Fairy,Flying,Cute Charm,,Contrary,74,115,70,135,80,106,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/enamorus.png
+1378,Enamorus-1,Enamorus-1,,Fairy,Flying,Overcoat,,,74,115,110,135,100,46,1,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/.png
+906,Sprigatito,Sprigatito,sprigatito,Grass,,Overgrow,,Protean,40,61,54,45,45,65,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/sprigatito.png
+907,Floragato,Floragato,floragato,Grass,,Overgrow,,Protean,61,80,63,60,63,83,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/floragato.png
+908,Meowscarada,Meowscarada,meowscarada,Grass,Dark,Overgrow,,Protean,76,110,70,81,70,123,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/meowscarada.png
+909,Fuecoco,Fuecoco,fuecoco,Fire,,Blaze,,Unaware,67,45,59,63,40,36,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/fuecoco.png
+910,Crocalor,Crocalor,crocalor,Fire,,Blaze,,Unaware,81,55,78,90,58,49,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/crocalor.png
+911,Skeledirge,Skeledirge,skeledirge,Fire,Ghost,Blaze,,Unaware,104,75,100,110,75,66,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/skeledirge.png
+912,Quaxly,Quaxly,quaxly,Water,,Torrent,,Moxie,55,65,45,50,45,50,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/quaxly.png
+913,Quaxwell,Quaxwell,quaxwell,Water,,Torrent,,Moxie,70,85,65,65,60,65,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/quaxwell.png
+914,Quaquaval,Quaquaval,quaquaval,Water,Fighting,Torrent,,Moxie,85,120,80,85,75,85,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/quaquaval.png
+915,Lechonk,Lechonk,lechonk,Normal,,Aroma Veil,Gluttony,Thick Fat,54,45,40,35,45,35,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/lechonk.png
+916,Oinkologne,Oinkologne,oinkologne,Normal,,Lingering Aroma,Gluttony,Thick Fat,110,100,75,59,80,65,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/oinkologne.png
+1379,Oinkologne-1,Oinkologne Female,oinkologne-f,Normal,,Aroma Veil,Gluttony,Thick Fat,115,90,70,59,90,65,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/oinkologne-f.png
+917,Dudunsparce,Dudunsparce (Two-Segment),dudunsparce-two-segment,Normal,,Serene Grace,Run Away,Rattled,125,100,80,85,75,55,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/dudunsparce-two-segment.png
+1380,Dudunsparce-1,Dudunsparce (Three-Segment),dudunsparce-three-segment,Normal,,Serene Grace,Run Away,Rattled,125,100,80,85,75,55,1,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/.png
+918,Tarountula,Tarountula,tarountula,Bug,,Insomnia,,Stakeout,35,41,45,29,40,20,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/tarountula.png
+919,Spidops,Spidops,spidops,Bug,,Insomnia,,Stakeout,60,79,92,52,86,35,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/spidops.png
+920,Nymble,Nymble,nymble,Bug,,Swarm,,Tinted Lens,33,46,40,21,25,45,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/nymble.png
+921,Lokix,Lokix,lokix,Bug,Dark,Swarm,,Tinted Lens,71,102,78,52,55,92,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/lokix.png
+922,Rellor,Rellor,rellor,Bug,,Compound Eyes,,Shed Skin,41,50,60,31,58,30,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/rellor.png
+923,Rabsca,Rabsca,rabsca,Bug,Psychic,Synchronize,,Telepathy,75,50,85,115,100,45,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/rabsca.png
+924,Greavard,Greavard,greavard,Ghost,,Pickup,,Fluffy,50,61,60,30,55,34,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/greavard.png
+925,Houndstone,Houndstone,houndstone,Ghost,,Sand Rush,,Fluffy,72,101,100,50,97,68,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/houndstone.png
+926,Flittle,Flittle,flittle,Psychic,,Anticipation,Frisk,Speed Boost,30,35,30,55,30,75,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/flittle.png
+927,Espathra,Espathra,espathra,Psychic,,Opportunist,Frisk,Speed Boost,95,60,60,101,60,105,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/espathra.png
+928,Farigiraf,Farigiraf,farigiraf,Normal,Psychic,Cud Chew,Armor Tail,Sap Sipper,120,90,70,110,70,60,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/farigiraf.png
+929,Wiglett,Wiglett,wiglett,Water,,Gooey,Rattled,Sand Veil,10,55,25,35,25,95,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/wiglett.png
+930,Wugtrio,Wugtrio,wugtrio,Water,,Gooey,Rattled,Sand Veil,35,100,50,50,70,120,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/wugtrio.png
+931,Dondozo,Dondozo,dondozo,Water,,Unaware,Oblivious,Water Veil,150,100,115,65,65,35,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/dondozo.png
+932,Veluza,Veluza,veluza,Water,Psychic,Mold Breaker,,Sharpness,90,102,73,78,65,70,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/veluza.png
+933,Finizen,Finizen,finizen,Water,,Water Veil,,,70,45,40,45,40,75,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/finizen.png
+934,Palafin,Palafin Zero,palafin-zero,Water,,Zero to Hero,,,100,70,72,53,62,100,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/palafin-zero.png
+1381,Palafin-1,Palafin Hero,palafin-hero,Water,,Zero to Hero,,,100,160,97,106,87,100,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/palafin-hero.png
+935,Smoliv,Smoliv,smoliv,Grass,Normal,Early Bird,,Harvest,41,35,45,58,51,30,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/smoliv.png
+936,Dolliv,Dolliv,dolliv,Grass,Normal,Early Bird,,Harvest,52,53,60,78,78,33,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/dolliv.png
+937,Arboliva,Arboliva,arboliva,Grass,Normal,Seed Sower,,Harvest,78,69,90,125,109,39,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/arboliva.png
+938,Capsakid,Capsakid,capsakid,Grass,,Chlorophyll,Insomnia,Klutz,50,62,40,62,40,50,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/capsakid.png
+939,Scovillain,Scovillain,scovillain,Grass,Fire,Chlorophyll,Insomnia,Moody,65,108,65,108,65,75,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/scovillain.png
+940,Tadbulb,Tadbulb,tadbulb,Electric,,Own Tempo,Static,Damp,61,31,41,59,35,45,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/tadbulb.png
+941,Bellibolt,Bellibolt,bellibolt,Electric,,Electromorphosis,Static,Damp,109,64,91,103,83,45,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/bellibolt.png
+942,Varoom,Varoom,varoom,Steel,Poison,Overcoat,,Slow Start,45,70,63,30,45,47,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/varoom.png
+943,Revavroom,Revavroom,revavroom,Steel,Poison,Overcoat,,Filter,80,119,90,54,67,90,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/revavroom.png
+944,Orthworm,Orthworm,orthworm,Steel,,Earth Eater,,Sand Veil,70,85,145,60,55,65,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/orthworm.png
+945,Tandemaus,Tandemaus,tandemaus,Normal,,Run Away,Pickup,Own Tempo,50,50,45,40,45,75,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/tandemaus.png
+946,Maushold,Maushold (Family of Three),maushold-family-of-three,Normal,,Friend Guard,Cheek Pouch,Technician,74,75,70,65,75,111,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/maushold-family-of-three.png
+1382,Maushold-1,Maushold (Family of Four),maushold-family-of-four,Normal,,Friend Guard,Cheek Pouch,Technician,74,75,70,65,75,111,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/maushold-family-of-four.png
+947,Cetoddle,Cetoddle,cetoddle,Ice,,Thick Fat,Snow Cloak,Sheer Force,108,68,45,30,40,43,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/cetoddle.png
+948,Cetitan,Cetitan,cetitan,Ice,,Thick Fat,Slush Rush,Sheer Force,170,113,65,45,55,73,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/cetitan.png
+949,Frigibax,Frigibax,frigibax,Dragon,Ice,Thermal Exchange,,Ice Body,65,75,45,35,45,55,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/frigibax.png
+950,Arctibax,Arctibax,arctibax,Dragon,Ice,Thermal Exchange,,Ice Body,90,95,66,45,65,62,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/arctibax.png
+951,Baxcalibur,Baxcalibur,baxcalibur,Dragon,Ice,Thermal Exchange,,Ice Body,115,145,92,75,86,87,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/baxcalibur.png
+952,Tatsugiri,Tatsugiri (Curly),tatsugiri-curly,Dragon,Water,Commander,,Storm Drain,68,50,60,120,95,82,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/tatsugiri-curly.png
+1383,Tatsugiri-1,Tatsugiri (Droopy),tatsugiri-droopy,Dragon,Water,Commander,,Storm Drain,68,50,60,120,95,82,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/tatsugiri-droopy.png
+1384,Tatsugiri-2,Tatsugiri (Stretch),tatsugiri-stretch,Dragon,Water,Commander,,Storm Drain,68,50,60,120,95,82,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/tatsugiri-stretch.png
+953,Cyclizar,Cyclizar,cyclizar,Dragon,Normal,Shed Skin,,Regenerator,70,95,65,85,65,121,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/cyclizar.png
+954,Pawmi,Pawmi,pawmi,Electric,,Static,Natural Cure,Iron Fist,45,50,20,40,25,60,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/pawmi.png
+955,Pawmo,Pawmo,pawmo,Electric,Fighting,Volt Absorb,Natural Cure,Iron Fist,60,75,40,50,40,85,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/pawmo.png
+956,Pawmot,Pawmot,pawmot,Electric,Fighting,Volt Absorb,Natural Cure,Iron Fist,70,115,70,70,60,105,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/pawmot.png
+957,Wattrel,Wattrel,wattrel,Electric,Flying,Wind Power,Volt Absorb,Competitive,40,40,35,55,40,70,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/wattrel.png
+958,Kilowattrel,Kilowattrel,kilowattrel,Electric,Flying,Wind Power,Volt Absorb,Competitive,70,70,60,105,60,125,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/kilowattrel.png
+959,Bombirdier,Bombirdier,bombirdier,Flying,Dark,Big Pecks,Keen Eye,Rocky Payload,70,103,85,60,85,82,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/bombirdier.png
+960,Squawkabilly,Squawkabilly (Green Plumage),squawkabilly-green-plumage,Normal,Flying,Intimidate,Hustle,Guts,82,96,51,45,51,92,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/squawkabilly-green-plumage.png
+1385,Squawkabilly-1,Squawkabilly (Blue Plumage),squawkabilly-blue-plumage,Normal,Flying,Intimidate,Hustle,Guts,82,96,51,45,51,92,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/squawkabilly-blue-plumage.png
+1386,Squawkabilly-2,Squawkabilly (Yellow Plumage),squawkabilly-yellow-plumage,Normal,Flying,Intimidate,Hustle,Sheer Force,82,96,51,45,51,92,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/squawkabilly-yellow-plumage.png
+1387,Squawkabilly-3,Squawkabilly (White Plumage),squawkabilly-white-plumage,Normal,Flying,Intimidate,Hustle,Sheer Force,82,96,51,45,51,92,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/squawkabilly-white-plumage.png
+961,Flamigo,Flamigo,flamigo,Flying,Fighting,Scrappy,Tangled Feet,Costar,82,115,74,75,64,90,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/flamigo.png
+962,Klawf,Klawf,klawf,Rock,,Anger Shell,Shell Armor,Regenerator,70,100,115,35,55,75,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/klawf.png
+963,Nacli,Nacli,nacli,Rock,,Purifying Salt,Sturdy,Clear Body,55,55,75,35,35,25,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/nacli.png
+964,Naclstack,Naclstack,naclstack,Rock,,Purifying Salt,Sturdy,Clear Body,60,60,100,35,65,35,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/naclstack.png
+965,Garganacl,Garganacl,garganacl,Rock,,Purifying Salt,Sturdy,Clear Body,100,100,130,45,90,35,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/garganacl.png
+966,Glimmet,Glimmet,glimmet,Rock,Poison,Toxic Debris,,Corrosion,48,35,42,105,60,60,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/glimmet.png
+967,Glimmora,Glimmora,glimmora,Rock,Poison,Toxic Debris,,Corrosion,83,55,90,130,81,86,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/glimmora.png
+968,Shroodle,Shroodle,shroodle,Poison,Normal,Unburden,Pickpocket,Prankster,40,65,35,40,35,75,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/shroodle.png
+969,Grafaiai,Grafaiai,grafaiai,Poison,Normal,Unburden,Poison Touch,Prankster,63,95,65,80,72,110,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/grafaiai.png
+970,Fidough,Fidough,fidough,Fairy,,Own Tempo,,Klutz,37,55,70,30,55,65,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/fidough.png
+971,Dachsbun,Dachsbun,dachsbun,Fairy,,Well-Baked Body,,Aroma Veil,57,80,115,50,80,95,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/dachsbun.png
+972,Maschiff,Maschiff,maschiff,Dark,,Intimidate,Run Away,Stakeout,60,78,60,40,51,51,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/maschiff.png
+973,Mabosstiff,Mabosstiff,mabosstiff,Dark,,Intimidate,Guard Dog,Stakeout,80,120,90,60,70,85,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/mabosstiff.png
+974,Bramblin,Bramblin,bramblin,Grass,Ghost,Wind Rider,,Infiltrator,40,65,30,45,35,60,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/bramblin.png
+975,Brambleghast,Brambleghast,brambleghast,Grass,Ghost,Wind Rider,,Infiltrator,55,115,70,80,70,90,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/brambleghast.png
+976,Gimmighoul,Gimmighoul (Chest),gimmighoul-chest,Ghost,,Rattled,,,45,30,70,75,70,10,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/gimmighoul-chest.png
+1388,Gimmighoul-1,Gimmighoul (Roaming),gimmighoul-roaming,Ghost,,Run Away,,,45,30,25,75,45,80,1,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/gimmighoul-roaming.png
+977,Gholdengo,Gholdengo,gholdengo,Steel,Ghost,Good as Gold,,,87,60,95,133,91,84,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/gholdengo.png
+978,Great Tusk,Great Tusk,greattusk,Ground,Fighting,Protosynthesis,,,115,131,131,53,53,87,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/greattusk.png
+979,Brute Bonnet,Brute Bonnet,brutebonnet,Grass,Dark,Protosynthesis,,,111,127,99,79,99,55,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/brutebonnet.png
+981,Sandy Shocks,Sandy Shocks,sandyshocks,Electric,Ground,Protosynthesis,,,85,81,97,121,85,101,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/sandyshocks.png
+982,Scream Tail,Scream Tail,screamtail,Fairy,Psychic,Protosynthesis,,,115,65,99,65,115,111,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/screamtail.png
+983,Flutter Mane,Flutter Mane,fluttermane,Ghost,Fairy,Protosynthesis,,,55,55,55,135,135,135,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/fluttermane.png
+984,Slither Wing,Slither Wing,slitherwing,Bug,Fighting,Protosynthesis,,,85,135,79,85,105,81,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/slitherwing.png
+985,Roaring Moon,Roaring Moon,roaringmoon,Dragon,Dark,Protosynthesis,,,105,139,71,55,101,119,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/roaringmoon.png
+986,Iron Treads,Iron Treads,irontreads,Ground,Steel,Quark Drive,,,90,112,120,72,70,106,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/irontreads.png
+988,Iron Moth,Iron Moth,ironmoth,Fire,Poison,Quark Drive,,,80,70,60,140,110,110,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/ironmoth.png
+989,Iron Hands,Iron Hands,ironhands,Fighting,Electric,Quark Drive,,,154,140,108,50,68,50,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/ironhands.png
+990,Iron Jugulis,Iron Jugulis,ironjugulis,Dark,Flying,Quark Drive,,,94,80,86,122,80,108,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/ironjugulis.png
+991,Iron Thorns,Iron Thorns,ironthorns,Rock,Electric,Quark Drive,,,100,134,110,70,84,72,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/ironthorns.png
+992,Iron Bundle,Iron Bundle,ironbundle,Ice,Water,Quark Drive,,,56,80,114,124,60,136,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/ironbundle.png
+993,Iron Valiant,Iron Valiant,ironvaliant,Fairy,Fighting,Quark Drive,,,74,130,90,120,60,116,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/ironvaliant.png
+994,Ting-Lu,Ting-Lu,ting-lu,Dark,Ground,Vessel of Ruin,,,155,110,125,55,80,45,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/ting-lu.png
+995,Chien-Pao,Chien-Pao,chien-pao,Dark,Ice,Sword of Ruin,,,80,120,80,90,65,135,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/chien-pao.png
+996,Wo-Chien,Wo-Chien,wo-chien,Dark,Grass,Tablets of Ruin,,,85,85,100,95,135,70,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/wo-chien.png
+997,Chi-Yu,Chi-Yu,chi-yu,Dark,Fire,Beads of Ruin,,,55,80,80,135,120,100,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/chi-yu.png
+998,Koraidon,Koraidon,koraidon,Fighting,Dragon,Orichalcum Pulse,,,100,135,115,85,100,135,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/koraidon.png
+1389,Koraidon-1,Koraidon-1,,Fighting,Dragon,Orichalcum Pulse,,,100,135,115,85,100,135,1,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/.png
+1390,Koraidon-2,Koraidon-2,,Fighting,Dragon,Orichalcum Pulse,,,100,135,115,85,100,135,1,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/.png
+1391,Koraidon-3,Koraidon-3,,Fighting,Dragon,Orichalcum Pulse,,,100,135,115,85,100,135,1,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/.png
+1392,Koraidon-4,Koraidon-4,,Fighting,Dragon,Orichalcum Pulse,,,100,135,115,85,100,135,1,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/.png
+999,Miraidon,Miraidon,miraidon,Electric,Dragon,Hadron Engine,,,100,85,100,135,115,135,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/miraidon.png
+1393,Miraidon-1,Miraidon-1,,Electric,Dragon,Hadron Engine,,,100,85,100,135,115,135,1,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/.png
+1394,Miraidon-2,Miraidon-2,,Electric,Dragon,Hadron Engine,,,100,85,100,135,115,135,1,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/.png
+1395,Miraidon-3,Miraidon-3,,Electric,Dragon,Hadron Engine,,,100,85,100,135,115,135,1,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/.png
+1396,Miraidon-4,Miraidon-4,,Electric,Dragon,Hadron Engine,,,100,85,100,135,115,135,1,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/.png
+1000,Tinkatink,Tinkatink,tinkatink,Fairy,Steel,Mold Breaker,Own Tempo,Pickpocket,50,45,45,35,64,58,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/tinkatink.png
+1001,Tinkatuff,Tinkatuff,tinkatuff,Fairy,Steel,Mold Breaker,Own Tempo,Pickpocket,65,55,55,45,82,78,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/tinkatuff.png
+1002,Tinkaton,Tinkaton,tinkaton,Fairy,Steel,Mold Breaker,Own Tempo,Pickpocket,85,75,77,70,105,94,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/tinkaton.png
+1003,Charcadet,Charcadet,charcadet,Fire,,Flash Fire,,Flame Body,40,50,40,50,40,35,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/charcadet.png
+1004,Armarouge,Armarouge,armarouge,Fire,Psychic,Flash Fire,,Weak Armor,85,60,100,125,80,75,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/armarouge.png
+1005,Ceruledge,Ceruledge,ceruledge,Fire,Ghost,Flash Fire,,Weak Armor,75,125,80,60,100,85,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/ceruledge.png
+1006,Toedscool,Toedscool,toedscool,Ground,Grass,Mycelium Might,,,40,40,35,50,100,70,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/toedscool.png
+1007,Toedscruel,Toedscruel,toedscruel,Ground,Grass,Mycelium Might,,,80,70,65,80,120,100,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/toedscruel.png
+1008,Kingambit,Kingambit,kingambit,Dark,Steel,Defiant,Supreme Overlord,Pressure,100,135,120,60,85,50,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/kingambit.png
+1009,Clodsire,Clodsire,clodsire,Poison,Ground,Poison Point,Water Absorb,Unaware,130,75,60,45,100,20,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/clodsire.png
+1010,Annihilape,Annihilape,annihilape,Fighting,Ghost,Vital Spirit,Inner Focus,Defiant,110,115,80,50,90,90,,https://cdn.jsdelivr.net/gh/iJediPVP/jdex-data@latest/sprites/home/normal/annihilape.png

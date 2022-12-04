@@ -132,8 +132,85 @@ function Set-PokeNameAndAlias([ref]$Name, [ref]$Alias, $Form) {
         Rename-PokeAliasRegion ([ref]$AliasRes) "hisuian"
     }
 
+    if($NameRes -eq "Tauros") {
+        if($Form -eq "p") {
+            $NameRes = "Paldean $NameRes"
+            $AliasRes = $NameRes.ToLower().Replace(" ", "-")
+            Rename-PokeAliasRegion ([ref]$AliasRes) "paldean"
+        } elseif($Form -eq "b") {
+            $NameRes = "Paldean $NameRes (Blaze)"
+            $AliasRes = $NameRes.ToLower().Replace(" ", "-")
+            Update-String ([ref]$AliasRes) "(blaze)" "blaze"
+            Rename-PokeAliasRegion ([ref]$AliasRes) "paldean"
+        } elseif($Form -eq "a") {
+            $NameRes = "Paldean $NameRes (Aqua)"
+            $AliasRes = $NameRes.ToLower().Replace(" ", "-")
+            Update-String ([ref]$AliasRes) "(aqua)" "aqua"
+            Rename-PokeAliasRegion ([ref]$AliasRes) "paldean"
+        }
+    }
+
     if($NameRes -eq "Unown A") {
         $AliasRes = $NameRes.ToLower().Replace(" ", "-")
+    }
+
+    if($NameRes -eq "Dudunsparce") {
+        if($Form -eq "t") {
+            $NameRes = "$NameRes (Three-Segment)"
+            $AliasRes = "$AliasRes-three-segment"
+        } else {
+            $NameRes = "$NameRes (Two-Segment)"
+            $AliasRes = "$AliasRes-two-segment"
+        }
+    }
+
+    if($NameRes -eq "Maushold") {
+        if($Form -eq "f") {
+            $NameRes = "$NameRes (Family of Four)"
+            $AliasRes = "$AliasRes-family-of-four"
+        } else {
+            $NameRes = "$NameRes (Family of Three)"
+            $AliasRes = "$AliasRes-family-of-three"
+        }
+    }
+
+    if($NameRes -eq "Squawkabilly") {
+        if($Form -eq "b") {
+            $NameRes = "$NameRes (Blue Plumage)"
+            $AliasRes = "$AliasRes-blue-plumage"
+        } elseif($Form -eq "y") {
+            $NameRes = "$NameRes (Yellow Plumage)"
+            $AliasRes = "$AliasRes-yellow-plumage"
+        } elseif($Form -eq "w") {
+            $NameRes = "$NameRes (White Plumage)"
+            $AliasRes = "$AliasRes-white-plumage"
+        } else {
+            $NameRes = "$NameRes (Green Plumage)"
+            $AliasRes = "$AliasRes-green-plumage"
+        }
+    }
+
+    if($NameRes -eq "Palafin") {
+        if($Form -eq "h") {
+            $NameRes = "$NameRes (Hero)"
+            $AliasRes = "$AliasRes-hero"
+        } else {
+            $NameRes = "$NameRes (Zero)"
+            $AliasRes = "$AliasRes-zero"
+        }
+    }
+
+    if($NameRes -eq "Tatsugiri") {
+        if($Form -eq "d") {
+            $NameRes = "$NameRes (Droopy)"
+            $AliasRes = "$AliasRes-droopy"
+        } elseif($Form -eq "s") {
+            $NameRes = "$NameRes (Stretch)"
+            $AliasRes = "$AliasRes-stretch"
+        } else {
+            $NameRes = "$NameRes (Curly)"
+            $AliasRes = "$AliasRes-curly"
+        }
     }
 
     if($AliasRes.EndsWith("-")) {

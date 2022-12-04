@@ -1,6 +1,32 @@
 . ".\utility\WebUtil.ps1"
 . ".\utility\PokeUtil.ps1"
 
+function Get-Ability($AbilityName, $IsHidden) {
+
+    if([string]::IsNullOrEmpty($AbilityName) -eq $true) {
+        return
+    }
+
+    $Ability = [PSCustomObject]@{
+        Name = $AbilityName
+        IsHidden = $IsHidden
+        Description = ""
+    }
+
+    $AbilityInfo = $AbilityInfos | Where-Object { $_.Name -eq $AbilityName }
+    if($null -eq $AbilityInfo) {
+        Write-host "Could not find ability info for $Alias" -ForegroundColor Red
+        return
+    }
+
+    $Ability.Description = $AbilityInfo.Desc
+
+    return $Ability
+}
+
+$OutputDir = Join-Path ((Get-Location).Path) "scarletviolet" "data"
+New-Item $OutputDir -ItemType Directory -ErrorAction SilentlyContinue
+
 $Resources = @(
     "scarletviolet/teraraidbattles/1star.shtml",
     "scarletviolet/teraraidbattles/2star.shtml",
@@ -78,7 +104,7 @@ foreach($Resource in $Resources) {
                     [void]$Abilities.Add($ColText[$ColText.Length - 1])
     
                 } elseif($ColHeader.StartsWith("Moves")) {
-                    $ColMoves = $ColText | Where-Object { $_ -ne "Moves" -and $_ -ne "Additional Moves" }
+                    $ColMoves = $ColText | Where-Object { $_.Length -gt 0 -and $_ -ne "Moves" -and $_ -ne "Additional Moves" } 
                     [void]$Moves.Add($ColMoves)
     
                 } elseif($ColHeader.StartsWith("Item Drops")) {
@@ -123,13 +149,133 @@ foreach($Resource in $Resources) {
 
 
 # Now that we have all of the tera den info, we need to restructure the data
+$PokeInfos = Import-CSV (Join-Path $OutputDir "pokemon.csv") -Encoding utf8
+$AbilityInfos = Get-Content (Join-Path $OutputDir "abilities.json")  -Encoding utf8 | ConvertFrom-Json
+$MoveInfos = Get-Content (Join-Path $OutputDir "moves.json")  -Encoding utf8 | ConvertFrom-Json
+
+$TeraResults = New-Object System.Collections.ArrayList
+
 foreach($TeraInfo in $TeraInfos) {
+
+    $SplitName = $TeraInfo.Category.Split(" - ")
+    $Name = $SplitName[$SplitName.Length - 1]
+
+    Write-Host "Formatting $Name" -ForegroundColor Green
+
+    $Stars = -1
+    if($Name.EndsWith("Star")) {
+        $SplitName = $Name.Split(" ")
+        $Stars = [int]$SplitName[0]
+    }
+
+    $Descriptions = @()
+    if($TeraInfo.Descriptions.Length -gt 0) {
+        $Descriptions = $TeraInfo.Descriptions
+    }
+
+    $Monsters = New-Object System.Collections.ArrayList
+
+    for($M = 0; $M -lt $TeraInfo.Sprites.Count; $M++) {
+        $Sprite = $TeraInfo.Sprites[$M]
+        $PokeName = $TeraInfo.Names[$M]
+        $Alias = ""
+        $Form = ""
+        $PokeStars = $Stars
+
+        $SplitSrc = $Sprite.Split("/")
+        $Png = $SplitSrc[$SplitSrc.Length - 1].Replace(".png", "")
+        if($Png -ne "blank") {
+            $PngSplit = $Png.Split("-")
+            if($PngSplit.Length -gt 1) {
+                $Form = $PngSplit[1]
+            }
+        }
+
+        Set-PokeNameAndAlias ([ref]$PokeName) ([ref]$Alias) $Form
+        
+        if($PokeStars -lt 0) {
+            $PokeStars = $TeraInfo.DenStars[$M]
+        }
+
+        #region Abilities
+
+        $Abilities = New-Object System.Collections.ArrayList
+        $PokeInfo = $PokeInfos | Where-Object { $_.Alias -eq $Alias } | Select-Object -First 1
+        if($null -eq $PokeInfo) {
+            Write-Host "Could not find info for $Alias" -ForegroundColor Red
+            return
+        }
+
+        $Ability = Get-Ability $PokeInfo.Ability1 $false
+        if($null -ne $Ability) {
+            [void]$Abilities.Add($Ability)
+        }
+        $Ability = Get-Ability $PokeInfo.Ability2 $false
+        if($null -ne $Ability) {
+            [void]$Abilities.Add($Ability)
+        }
+        $Ability = Get-Ability $PokeInfo.HiddenAbility $true
+        if($null -ne $Ability) {
+            [void]$Abilities.Add($Ability)
+        }
+
+        #endregion
+
+        #region Moves
+
+        $Moves = New-Object System.Collections.ArrayList
+        $TeraMoves = $TeraInfo.Moves[$M]
+        foreach($MoveName in $TeraMoves) {
+            $MoveInfo = $MoveInfos | Where-Object { $_.Name -eq $MoveName } | Select-Object -First 1
+            if($null -eq $MoveInfo) {
+                Write-Host "Could not find move info for $MoveName" -ForegroundColor Red
+                return
+            }
+
+            $MoveResult = [PSCustomObject]@{
+                Name = $MoveName
+                Description = $MoveInfo.Description
+            }
+            [void]$Moves.Add($MoveResult)
+        }
+
+        #endregion
+
+        $BaseStats = [PSCustomObject]@{
+            HP = $PokeInfo.HP
+            Attack = $PokeInfo.Attack
+            Defense = $PokeInfo.Defense
+            SpAttack = $PokeInfo.SpAttack
+            SpDefense = $PokeInfo.SpDefense
+            Speed = $PokeInfo.Speed
+        }
+
+        $PokeResult = [PSCustomObject]@{
+            Name = $PokeName
+            Alias = $Alias
+            Stars = $PokeStars
+            Level = [int]$TeraInfo.Levels[$M].Replace("Lv.", "").Trim()
+            SerebiiLink = $TeraInfo.Links[$M] + "/"
+            PossibleTera = $TeraInfo.TeraTypes[$M]
+            PossibleAbility = $TeraInfo.Abilities[$M]
+            Abilities = $Abilities.ToArray()
+            Moves = $Moves.ToArray()
+            BaseStats = $BaseStats
+        }
+        [void]$Monsters.Add($PokeResult)
+
+    }
+
+    $TeraResult = [PSCustomObject]@{
+        Name = $Name
+        Stars = $Stars
+        Descriptions = $Descriptions
+        Monsters = $Monsters
+    }
+    [void]$TeraResults.Add($TeraResult)
 
 }
 
 
-$OutputDir = Join-Path ((Get-Location).Path) "scarletviolet" "data"
-New-Item $OutputDir -ItemType Directory -ErrorAction SilentlyContinue
-
 $OutputFIle = Join-Path $OutputDir "teraraids.json"
-ConvertTo-Json $TeraInfos -Compress -Depth 10 | Out-File $OutputFIle -Encoding UTF8 -Force -ErrorAction Stop
+ConvertTo-Json $TeraResults -Compress -Depth 10 | Out-File $OutputFIle -Encoding UTF8 -Force -ErrorAction Stop
