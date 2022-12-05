@@ -170,8 +170,6 @@ $PokeInfos = Import-CSV (Join-Path $OutputDir "pokemon.csv") -Encoding utf8
 $AbilityInfos = Get-Content (Join-Path $OutputDir "abilities.json")  -Encoding utf8 | ConvertFrom-Json
 $MoveInfos = Get-Content (Join-Path $OutputDir "moves.json")  -Encoding utf8 | ConvertFrom-Json
 
-$TeraResults = New-Object System.Collections.ArrayList
-
 foreach($TeraInfo in $TeraInfos) {
 
     $SplitName = $TeraInfo.Category.Split(" - ")
@@ -290,10 +288,9 @@ foreach($TeraInfo in $TeraInfos) {
         Descriptions = $Descriptions
         Monsters = $Monsters
     }
-    [void]$TeraResults.Add($TeraResult)
 
+    $FileName = "tera_" + $Name.Replace(" ", "") + ".json"
+    $OutputFIle = Join-Path $OutputDir $FileName
+    ConvertTo-Json $TeraResult -Compress -Depth 10 | Out-File $OutputFIle -Encoding UTF8 -Force -ErrorAction Stop
 }
 
-
-$OutputFIle = Join-Path $OutputDir "teraraids.json"
-ConvertTo-Json $TeraResults -Compress -Depth 10 | Out-File $OutputFIle -Encoding UTF8 -Force -ErrorAction Stop
