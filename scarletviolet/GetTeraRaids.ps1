@@ -66,6 +66,7 @@ foreach($Resource in $Resources) {
     $Abilities = New-Object System.Collections.ArrayList
     $Moves = New-Object System.Collections.ArrayList
     $DenStars = New-Object System.Collections.ArrayList
+    $Items = New-Object System.Collections.ArrayList
     
     for($R = 1; $R -lt $Rows.Length; $R++) {
         $Row = $Rows[$R]
@@ -116,6 +117,21 @@ foreach($Resource in $Resources) {
                             [void]$DenStars.Add($Stars)
                         }
                     }
+
+
+                    # Let's find the herbas
+                    $ColItems = $Col.getElementsByTagName("tr")
+                    $PokeItems = New-Object System.Collections.ArrayList
+                    foreach($Item in $ColItems) {
+                        $Img = $Item.getElementsByTagName("img")
+                        if($null -ne $Img) {
+                            $Title = $Img | Select -Expand title 
+                            if([string]::IsNullOrEmpty($Title) -eq $false -and $Title.Contains("Herba Mystica")) {
+                                [void]$PokeItems.Add($Title)
+                            }
+                        }
+                    }
+                    [void]$Items.Add($PokeItems.ToArray())
     
                     # Reset
                     $Stage = -1
@@ -142,6 +158,7 @@ foreach($Resource in $Resources) {
         Abilities = $Abilities
         Moves = $Moves
         DenStars = $DenStars
+        Items = $Items
     }
 
     [void]$TeraInfos.Add($TeraInfo)
@@ -261,6 +278,7 @@ foreach($TeraInfo in $TeraInfos) {
             Abilities = $Abilities.ToArray()
             Moves = $Moves.ToArray()
             BaseStats = $BaseStats
+            Items = $TeraInfo.Items[$M]
         }
         [void]$Monsters.Add($PokeResult)
 
