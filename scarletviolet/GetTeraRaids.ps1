@@ -55,7 +55,10 @@ foreach($Resource in $Resources) {
     
     $Header = $Rows[0].firstChild.innerText.Split("`r`n")
     $Category = $Header[0]
-    $Descriptions = $Header | Select-Object -Skip 1
+    $Descriptions = New-Object System.Collections.ArrayList 
+    foreach($Desc in ($Header | Select-Object -Skip 1)) {
+        [void]$Descriptions.Add($Desc)
+    }
     
     $Stage = 0
     $Sprites = New-Object System.Collections.ArrayList
@@ -249,6 +252,10 @@ foreach($TeraInfo in $TeraInfos) {
 
             $MoveResult = [PSCustomObject]@{
                 Name = $MoveName
+                Type = $MoveInfo.Type
+                Category = $MoveInfo.Category
+                Attack = $MoveInfo.Attack
+                Accuracy = $MoveInfo.Accuracy
                 Description = $MoveInfo.Description
             }
             [void]$Moves.Add($MoveResult)
@@ -257,12 +264,12 @@ foreach($TeraInfo in $TeraInfos) {
         #endregion
 
         $BaseStats = [PSCustomObject]@{
-            HP = $PokeInfo.HP
-            Attack = $PokeInfo.Attack
-            Defense = $PokeInfo.Defense
-            SpAttack = $PokeInfo.SpAttack
-            SpDefense = $PokeInfo.SpDefense
-            Speed = $PokeInfo.Speed
+            HP = [int]$PokeInfo.HP
+            Attack = [int]$PokeInfo.Attack
+            Defense = [int]$PokeInfo.Defense
+            SpAttack = [int]$PokeInfo.SpAttack
+            SpDefense = [int]$PokeInfo.SpDefense
+            Speed = [int]$PokeInfo.Speed
         }
 
         $PokeResult = [PSCustomObject]@{
@@ -282,6 +289,7 @@ foreach($TeraInfo in $TeraInfos) {
 
     }
 
+    $Monsters = $Monsters | Sort-Object -Property Name
     $TeraResult = [PSCustomObject]@{
         Name = $Name
         Stars = $Stars
