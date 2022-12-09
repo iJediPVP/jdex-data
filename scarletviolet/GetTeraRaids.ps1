@@ -37,6 +37,7 @@ $Resources = @(
 
     "scarletviolet/teraraidbattles/event-eeveespotlight.shtml",
     "scarletviolet/teraraidbattles/event-unrivaledcharizard.shtml"
+    "scarletviolet/teraraidbattles/event-tyranitarandsalamencespotlight.shtml"
 )
 
 $TeraInfos = New-Object System.Collections.ArrayList
