@@ -122,25 +122,26 @@ foreach($Resource in $Resources) {
                         }
                     }
 
-
                     # Let's find the herbas
-                    $ColItems = $Col.getElementsByTagName("tr")
+                    $ColItems = $Col.getElementsByTagName("td")
                     $PokeItems = New-Object System.Collections.ArrayList
                     foreach($Item in $ColItems) {
                         $Img = $Item.getElementsByTagName("img")
                         if($null -ne $Img) {
-                            $Title = $Img | Select -Expand title 
+                            $Title = $Img | Select-Object -Expand title 
                             if([string]::IsNullOrEmpty($Title) -eq $false -and $Title.Contains("Herba Mystica")) {
                                 [void]$PokeItems.Add($Title)
                             }
                         }
                     }
+                    
                     [void]$Items.Add($PokeItems.ToArray())
     
                     # Reset
-                    $Stage = -1
-                    break
-    
+                    if($C -eq $Row.childNodes.Length - 1) {
+                        $Stage = -1
+                        break
+                    }
                 }
             }
     
