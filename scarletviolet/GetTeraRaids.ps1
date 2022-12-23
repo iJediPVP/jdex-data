@@ -36,8 +36,9 @@ $Resources = @(
     "scarletviolet/teraraidbattles/6star.shtml",
 
     "scarletviolet/teraraidbattles/event-eeveespotlight.shtml",
-    "scarletviolet/teraraidbattles/event-unrivaledcharizard.shtml"
-    "scarletviolet/teraraidbattles/event-tyranitarandsalamencespotlight.shtml"
+    "scarletviolet/teraraidbattles/event-unrivaledcharizard.shtml",
+    "scarletviolet/teraraidbattles/event-tyranitarandsalamencespotlight.shtml",
+    "scarletviolet/teraraidbattles/event-presentsfromdelibird.shtml"
 )
 
 $TeraInfos = New-Object System.Collections.ArrayList
@@ -291,7 +292,8 @@ foreach($TeraInfo in $TeraInfos) {
 
     }
 
-    $Monsters = $Monsters | Sort-Object -Property Name
+    $Monsters = $Monsters | Sort-Object -Property Name | Get-Unique -AsString
+    Write-Host ("Pokes found: " + $Monsters.Count)
     $TeraResult = [PSCustomObject]@{
         Name = $Name
         Stars = $Stars
