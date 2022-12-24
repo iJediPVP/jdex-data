@@ -218,15 +218,27 @@ foreach($TeraInfo in $TeraInfos) {
             $PokeStars = $TeraInfo.DenStars[$M]
         }
 
-        #region Abilities
+        #region Types
 
-        $Abilities = New-Object System.Collections.ArrayList
+        $Types = New-Object System.Collections.ArrayList
         $PokeInfo = $PokeInfos | Where-Object { $_.Alias -eq $Alias } | Select-Object -First 1
         if($null -eq $PokeInfo) {
             Write-Host "Could not find info for $Alias" -ForegroundColor Red
             return
         }
 
+        if([string]::IsNullOrEmpty($PokeInfo.Type1) -eq $false) {
+            [void]$Types.Add($PokeInfo.Type1)
+        }
+        if([string]::IsNullOrEmpty($PokeInfo.Type2) -eq $false) {
+            [void]$Types.Add($PokeInfo.Type2)
+        }
+
+        #endregion
+
+        #region Abilities
+
+        $Abilities = New-Object System.Collections.ArrayList
         $Ability = Get-Ability $PokeInfo.Ability1 $false
         if($null -ne $Ability) {
             [void]$Abilities.Add($Ability)
@@ -283,6 +295,7 @@ foreach($TeraInfo in $TeraInfos) {
             SerebiiLink = $TeraInfo.Links[$M] + "/"
             PossibleTera = $TeraInfo.TeraTypes[$M]
             PossibleAbility = $TeraInfo.Abilities[$M]
+            Types = $Types.ToArray()
             Abilities = $Abilities.ToArray()
             Moves = $Moves.ToArray()
             BaseStats = $BaseStats
