@@ -27,6 +27,12 @@ foreach($PokeInfo in $PokeInfos) {
             Name = $PokeInfo.Display
             Alias = $PokeInfo.Alias
             Types = $Types
+            HP = $PokeInfo.HP
+            Attack = $PokeInfo.Attack
+            Defense = $PokeInfo.Defense
+            SpAttack = $PokeInfo.SpAttack
+            SpDefense = $PokeInfo.SpDefense
+            Speed = $PokeInfo.Speed
         }
 
         foreach($Repl in $NameReplacements) {
